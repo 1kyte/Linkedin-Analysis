@@ -17,7 +17,7 @@ page = 0
 
 def goToNextPage(driver):
     time.sleep(1)
-    url ="https://www.linkedin.com/jobs/search/?currentJobId=786572677&location=Melbourne%2C%20Australia&locationId=au%3A4900&start="+str(currentstart)
+    url ="https://www.linkedin.com/jobs/search/?location=Australia&locationId=au%3A0&start="+str(currentstart)
     driver.get(url)
     getClassicalView(driver)
     scrollDown(driver)
@@ -31,7 +31,7 @@ def opendrive():
         driver.find_element_by_id('login-password').send_keys("pa$$w0rd")
         driver.find_element_by_xpath('//*[@id="login-submit"]').click()
         # driver.get("https://www.linkedin.com/jobs/search/?location=Melbourne%2C%20Australia&locationId=au%3A4900")
-        url = "https://www.linkedin.com/jobs/search/?currentJobId=786572677&location=Melbourne%2C%20Australia&locationId=au%3A4900&start=" + str(
+        url = "https://www.linkedin.com/jobs/search/?location=Australia&locationId=au%3A0&start=" + str(
             currentstart)
         driver.get(url)
     except (NoSuchElementException,WebDriverException), message:
@@ -227,7 +227,7 @@ def getListofCurrentPage(driver):
     l = bsObj.find_all('li', {"class": "occludable-update card-list__item jobs-search-two-pane__search-result-item "
                                        "ember-view"})
     head = "https://www.linkedin.com/jobs/search/?currentJobId="
-    tail = "&location=Melbourne%2C%20Australia&locationId=au%3A4900&start=" + str(currentstart)
+    tail = "&location=Australia&locationId=au%3A0&start=" + str(currentstart)
     getSplitView(driver)
 
     for t in l:
@@ -243,7 +243,7 @@ def getListofCurrentPage(driver):
 
 
     try:
-        with open("recording04/record"+str(page)+".json", "w") as f:
+        with open("recording05/record"+str(page)+".json", "w") as f:
             json.dump(jobInformationList, f)
     except IOError,e:
         print e
@@ -260,10 +260,10 @@ def getListofCurrentPage(driver):
 
 
 def getData_job_id(li):
-    idAttribute=re.findall(r'data-job-id="[0-9]*"', str(li))
+    idAttribute=re.findall(r'data-job-id="urn:li:fs_normalized_jobPosting:[0-9]*"', str(li))
     id=re.findall(r'[0-9]*', str(idAttribute))
-    if len(id)>15:
-        theid = id[15]
+    if len(id)>47:
+        theid = id[47]
     return theid
 
 # ======================================================================================================================

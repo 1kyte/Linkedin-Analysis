@@ -3,11 +3,13 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import WebDriverException
 from bs4 import BeautifulSoup
+import csv
 
-page = 1
+page = 101
+l = []
 
 def opendrive():
-    global page
+    global page,l
     try:
 
         driver = webdriver.Firefox(executable_path = '/Users/PaulaZ/Downloads/geckodriver')
@@ -23,9 +25,15 @@ def opendrive():
     time.sleep(1)
     scrollDown(driver)
     getProfileURL(driver)
-    while (page<11):
+    while (page<102):
         changePage(driver)
-    # driver.close()
+
+    with open("test3.csv", "w") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerows(l)
+
+    csvfile.close()
+    driver.close()
 
 def openFirstPage(driver):
     try:
@@ -60,16 +68,20 @@ def getProfileURL(driver):
 
 
 def urlFilter(driver,resultList):
-    global page
+    urlHead="https://www.linkedin.com"
+    global page,l
     try:
-        l = []
+
         for liElement in resultList:
             bs = BeautifulSoup(str(liElement),"lxml")
             content = bs.find_all('a',{'class':"search-result__result-link ember-view"})
             if not content == []:
                 u = filterHelper(content[0])
-                l.append(u)
-        print l
+                profileURL = urlHead+str(u)
+                l.append([profileURL])
+
+        print "page:",page
+
         page+=1
 
     except IOError, e:
