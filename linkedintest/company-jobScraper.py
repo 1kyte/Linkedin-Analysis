@@ -14,7 +14,8 @@ def opendrive():
         driver.find_element_by_id('login-email').send_keys("analysisZ@outlook.com")
         driver.find_element_by_id('login-password').send_keys("pa$$w0rd")
         driver.find_element_by_xpath('//*[@id="login-submit"]').click()
-        while page<11:
+        while page<101:
+            print page
             goToTargetPage(driver)
 
     except (NoSuchElementException,WebDriverException), message:
@@ -71,15 +72,17 @@ def getURL(a,driver):
             theURL = temp
             urls.append(theURL)
             c = scrapyCompany(theURL, driver)
-            companies.append(c)
+            if c != "":
+                companies.append(c)
         else:
             if temp != urls[-1]:
                 theURL = temp
                 urls.append(theURL)
                 c = scrapyCompany(theURL, driver)
-                companies.append(c)
+                if c != "":
+                    companies.append(c)
     try:
-        with open("companyData"+str(page)+".json", "w") as f:
+        with open("companyData/companyData"+str(page)+".json", "w") as f:
             json.dump(companies, f)
     except IOError,e:
         print e
@@ -92,31 +95,40 @@ def scrapyCompany(theURL,driver):
     driver.get(theURL)
     time.sleep(3)
     name = getCompany(driver)
-    companies['name']=name
-    companies['bar']={}
-    driver.execute_script("window.scrollTo(0,1000);")
-    time.sleep(3)
-    classList=['org-cultural-insights-jobs-module__insight org-cultural-insights-jobs-module__insight--seniorities org-company-insights__insight insight-container',
-               'org-cultural-insights-jobs-module__insight org-cultural-insights-jobs-module__insight--locations org-company-insights__insight insight-container',
-               'org-cultural-insights-jobs-module__insight org-cultural-insights-jobs-module__insight--degree-levels org-company-insights__insight insight-container',
-               'org-cultural-insights-jobs-module__insight org-cultural-insights-jobs-module__insight--skills org-company-insights__insight insight-container']
+    industry = getIndustry(driver)
+    if name!="":
+        companies['name']=name
+        companies['industry'] = industry
+        companies['bar']={}
+        driver.execute_script("window.scrollTo(0,1000);")
+        time.sleep(3)
+        classList=['org-cultural-insights-jobs-module__insight org-cultural-insights-jobs-module__insight--seniorities org-company-insights__insight insight-container',
+                   'org-cultural-insights-jobs-module__insight org-cultural-insights-jobs-module__insight--locations org-company-insights__insight insight-container',
+                   'org-cultural-insights-jobs-module__insight org-cultural-insights-jobs-module__insight--degree-levels org-company-insights__insight insight-container',
+                   'org-cultural-insights-jobs-module__insight org-cultural-insights-jobs-module__insight--skills org-company-insights__insight insight-container']
 
-    for c in classList:
-        bs = BeautifulSoup(driver.page_source, "lxml")
-        levelBlock = bs.find_all('div', {
-            'class': c})
-        title = getTitle(str(levelBlock))
-        items = getItem(str(levelBlock))
-        companies['bar'][title]=items
-    return companies
+        for c in classList:
+            bs = BeautifulSoup(driver.page_source, "lxml")
+            levelBlock = bs.find_all('div', {
+                'class': c})
+            if (levelBlock!=[]):
+                title = getTitle(str(levelBlock))
+                items = getItem(str(levelBlock))
+                companies['bar'][title]=items
+        return companies
+    else:
+        return ""
 
 
 def getTitle(whereBlock):
-    bs = BeautifulSoup(whereBlock, "lxml")
-    titleTag = bs.find_all('h4',{'class':'Sans-17px-black-100%'})
-    title = re.findall(r'>.*<',str(titleTag[0]))
-    title2 = str(title[0]).strip('><')
-    return title2
+    try:
+        bs = BeautifulSoup(whereBlock, "lxml")
+        titleTag = bs.find_all('h4',{'class':'Sans-17px-black-100%'})
+        title = re.findall(r'>.*<',str(titleTag[0]))
+        title2 = str(title[0]).strip('><')
+        return title2
+    except (NoSuchElementException,WebDriverException), message:
+        print message
 
 
 def getItem(whereBlock):
@@ -138,13 +150,30 @@ def getCompany(driver):
     try:
         bs = BeautifulSoup(driver.page_source, "lxml")
         companyTag = bs.find_all('h1',{'class':'org-top-card-module__name Sans-26px-black-85%-light'})
-        name = re.findall(r'title=\".*\"',str(companyTag[0]))
-        companyName = str(name[0]).strip('title=')
-        company = str(companyName).strip('"')
-        print company
-        return company
+        if (companyTag!=[]):
+            name = re.findall(r'title=\".*\"',str(companyTag[0]))
+            companyName = str(name[0]).strip('title=')
+            company = str(companyName).strip('"')
+            print company
+            return company
+        else:
+            return ""
     except (NoSuchElementException,WebDriverException), message:
         print message
+
+
+def getIndustry(driver):
+    try:
+        bs = BeautifulSoup(driver.page_source,"lxml")
+        industryTag = bs.find_all('span',{'class':'company-industries org-top-card-module__dot-separated-list'})
+        if industryTag!=[]:
+            temp = str(industryTag[0]).replace(' ', '')
+            industry = re.findall(r'>\n.*\n<',str(temp))
+            i = str(industry[0]).strip('>\n<')
+            return i
+    except (NoSuchElementException,WebDriverException), message:
+        print message
+
 
 
 if __name__ == "__main__":

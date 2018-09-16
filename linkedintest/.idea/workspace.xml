@@ -5,8 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/URLscraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/URLscraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company-jobScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/company-jobScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/companyData1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profileScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/profileScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/reTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/linkedintest$reTest.coverage" NAME="reTest Coverage Results" MODIFIED="1535455496691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/linkedintest$URL.coverage" NAME="URL Coverage Results" MODIFIED="1536862709802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/linkedintest$Unnamed.coverage" NAME="Jobandcompany Coverage Results" MODIFIED="1536947590734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/linkedintest$URL.coverage" NAME="URL Coverage Results" MODIFIED="1537082002483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/linkedintest$reTest.coverage" NAME="reTest Coverage Results" MODIFIED="1537083005280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/linkedintest$dataParse.coverage" NAME="dataParse Coverage Results" MODIFIED="1536629793650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/linkedintest$jobsScraper.coverage" NAME="jobsScraper Coverage Results" MODIFIED="1536676149645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/linkedintest$Jobandcompany.coverage" NAME="Jobandcompany Coverage Results" MODIFIED="1537067727199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/linkedintest$Jobandcompany.coverage" NAME="Jobandcompany Coverage Results" MODIFIED="1537081103014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/linkedintest$URLscraper.coverage" NAME="ProfileScraper Coverage Results" MODIFIED="1536650396003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/linkedintest$ProfileScraper.coverage" NAME="ProfileScraper Coverage Results" MODIFIED="1536984908576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -71,7 +72,7 @@
           <entry key="csv" value="17" />
           <entry key="json" value="4" />
           <entry key="md" value="1" />
-          <entry key="py" value="7" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -79,19 +80,19 @@
           <entry key="JSON" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="67" />
-          <entry key="py" value="66536" />
+          <entry key="py" value="67025" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="67" />
-          <entry key="Python" value="66536" />
+          <entry key="Python" value="67025" />
         </counts>
       </usages-collector>
     </session>
@@ -122,16 +123,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company-jobScraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+            <state relative-caret-position="1666">
+              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1537067724510" expanded="true" signature="2741:5257" ph="..." />
-                <marker date="1537067724510" expanded="true" signature="3879:3882" ph="..." />
-                <marker date="1537067724510" expanded="true" signature="4860:5257" ph="..." />
+                <marker date="1537081098107" expanded="true" signature="2837:6284" ph="..." />
+                <marker date="1537081098107" expanded="true" signature="4205:4208" ph="..." />
+                <marker date="1537081098107" expanded="true" signature="5808:6284" ph="..." />
               </folding>
             </state>
           </provider>
@@ -158,8 +159,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URLscraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="236" column="31" selection-start-line="236" selection-start-column="31" selection-end-line="236" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1537086904447" expanded="true" signature="7569:8140" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,9 +193,9 @@
       <find>title</find>
       <find>dropdown jobs-search-dropdown jobs-search-dropdown--view-switcher closed ember-view']/button[@class='dropdown-trigger jobs-search-dropdown__trigger Sans-13px-black-55%-semibold ember-view</find>
       <find>getSplitView</find>
-      <find>print</find>
       <find>h4</find>
       <find>scrapyCompany</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,13 +204,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/reTest.py" />
         <option value="$PROJECT_DIR$/dataParse.py" />
         <option value="$PROJECT_DIR$/JobsScraper.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/URLscraper.py" />
         <option value="$PROJECT_DIR$/profileScraper.py" />
         <option value="$PROJECT_DIR$/company-jobScraper.py" />
+        <option value="$PROJECT_DIR$/URLscraper.py" />
+        <option value="$PROJECT_DIR$/reTest.py" />
       </list>
     </option>
   </component>
@@ -249,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Jobandcompany">
+  <component name="RunManager" selected="Python.reTest">
     <configuration name="Jobandcompany" type="PythonConfigurationType" factoryName="Python">
       <module name="linkedintest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -538,13 +552,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1535892179396" expanded="true" signature="815:962" ph="..." />
+            <marker date="1535892179396" expanded="true" signature="999:1000" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -593,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URLscraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="236" column="31" selection-start-line="236" selection-start-column="31" selection-end-line="236" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/companyData1.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -608,13 +613,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/company-jobScraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+        <state relative-caret-position="1666">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1537067724510" expanded="true" signature="2741:5257" ph="..." />
-            <marker date="1537067724510" expanded="true" signature="3879:3882" ph="..." />
-            <marker date="1537067724510" expanded="true" signature="4860:5257" ph="..." />
+            <marker date="1537081098107" expanded="true" signature="2837:6284" ph="..." />
+            <marker date="1537081098107" expanded="true" signature="4205:4208" ph="..." />
+            <marker date="1537081098107" expanded="true" signature="5808:6284" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/selenium/webdriver/common/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URLscraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1537086904447" expanded="true" signature="7569:8140" ph="..." />
           </folding>
         </state>
       </provider>

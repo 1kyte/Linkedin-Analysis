@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import WebDriverException
+from pyvirtualdisplay import Display
+
 #
 # li='div class="job-card-search--two-pane jobs-search-results__list--card--viewport-tracking-0 job-card-search job-card-search--column job-card-search pl4 job-card-search--is-active job-card-search--clickable job-card-search--outline-default ember-view" data-control-name="A_jobssearch_job_result_click" data-job-id="785584726" id="ember2612" role="button" tabindex="0"><div class="job-card-search__image-and-sponsored-container"'
 # result=re.findall(r'data-job-id="[0-9]*"', li)
@@ -64,55 +66,74 @@ from selenium.common.exceptions import WebDriverException
 #     path = [1,2,3,4,5]
 #     return path
 
-def goToNextPage(driver,currentstart):
-    time.sleep(1)
-    url ="https://www.linkedin.com/jobs/search/?currentJobId=786572677&location=Melbourne%2C%20Australia&locationId=au%3A4900&start="+str(currentstart)
-    driver.get(url)
-    getClassicalView(driver)
-    getSplitView(driver)
+# def goToNextPage(driver,currentstart):
+#     time.sleep(1)
+#     url ="https://www.linkedin.com/jobs/search/?currentJobId=786572677&location=Melbourne%2C%20Australia&locationId=au%3A4900&start="+str(currentstart)
+#     driver.get(url)
+#     getClassicalView(driver)
+#     getSplitView(driver)
+#
+# def opendrive():
+#     try:
+#         driver = webdriver.Firefox(executable_path = '/Users/PaulaZ/Downloads/geckodriver')
+#         driver.get("https://www.linkedin.com/?trk=brandpage_baidu_pc-mainlink")
+#         driver.find_element_by_id('login-email').send_keys("analysisZ@outlook.com")
+#         driver.find_element_by_id('login-password').send_keys("pa$$w0rd")
+#         driver.find_element_by_xpath('//*[@id="login-submit"]').click()
+#         driver.get("https://www.linkedin.com/jobs/search/?location=Melbourne%2C%20Australia&locationId=au%3A4900")
+#     except (NoSuchElementException,WebDriverException), message:
+#         print message
+#
+#     getClassicalView(driver)
+#     getSplitView(driver)
+#     currentstart = 2
+#     page = 2
+#
+#     while page<5:
+#         goToNextPage(driver,currentstart)
+#         currentstart+=1
+#         page+=1
+#
+# def getClassicalView(driver):
+#     try:
+#         telement = driver.find_element_by_xpath(
+#             "//div[@class='relative']/div[@class='dropdown jobs-search-dropdown jobs-search-dropdown--view-switcher closed ember-view']/button[@class='dropdown-trigger jobs-search-dropdown__trigger Sans-13px-black-55%-semibold ember-view']")
+#         telement.click()
+#         listElement = driver.find_element_by_xpath(
+#             "//ul[@class='dropdown-options jobs-search-dropdown__dropdown ember-view']/li[@class='jobs-search-dropdown__option']/button[@class='jobs-search-dropdown__option-button jobs-search-dropdown__option-button--single ']")
+#         listElement.click()
+#     except (NoSuchElementException,WebDriverException), message:
+#         print message
+#
+# def getSplitView(driver):
+#     try:
+#         telement = driver.find_element_by_xpath(
+#             "//div[@class='relative']/div[@class='dropdown jobs-search-dropdown jobs-search-dropdown--view-switcher closed ember-view']/button[@class='dropdown-trigger jobs-search-dropdown__trigger Sans-13px-black-55%-semibold ember-view']")
+#         telement.click()
+#         listElement = driver.find_element_by_xpath(
+#             "//ul[@class='dropdown-options jobs-search-dropdown__dropdown ember-view']/li[@class='jobs-search-dropdown__option']/button[@class='jobs-search-dropdown__option-button jobs-search-dropdown__option-button--split ']")
+#         listElement.click()
+#     except (NoSuchElementException,WebDriverException), message:
+#         print message
 
-def opendrive():
-    try:
-        driver = webdriver.Firefox(executable_path = '/Users/PaulaZ/Downloads/geckodriver')
-        driver.get("https://www.linkedin.com/?trk=brandpage_baidu_pc-mainlink")
-        driver.find_element_by_id('login-email').send_keys("analysisZ@outlook.com")
-        driver.find_element_by_id('login-password').send_keys("pa$$w0rd")
-        driver.find_element_by_xpath('//*[@id="login-submit"]').click()
-        driver.get("https://www.linkedin.com/jobs/search/?location=Melbourne%2C%20Australia&locationId=au%3A4900")
-    except (NoSuchElementException,WebDriverException), message:
-        print message
+def test():
+    # display = Display(visible=0, size=(800, 600))
+    # display.start()
 
-    getClassicalView(driver)
-    getSplitView(driver)
-    currentstart = 2
-    page = 2
 
-    while page<5:
-        goToNextPage(driver,currentstart)
-        currentstart+=1
-        page+=1
-
-def getClassicalView(driver):
-    try:
-        telement = driver.find_element_by_xpath(
-            "//div[@class='relative']/div[@class='dropdown jobs-search-dropdown jobs-search-dropdown--view-switcher closed ember-view']/button[@class='dropdown-trigger jobs-search-dropdown__trigger Sans-13px-black-55%-semibold ember-view']")
-        telement.click()
-        listElement = driver.find_element_by_xpath(
-            "//ul[@class='dropdown-options jobs-search-dropdown__dropdown ember-view']/li[@class='jobs-search-dropdown__option']/button[@class='jobs-search-dropdown__option-button jobs-search-dropdown__option-button--single ']")
-        listElement.click()
-    except (NoSuchElementException,WebDriverException), message:
-        print message
-
-def getSplitView(driver):
-    try:
-        telement = driver.find_element_by_xpath(
-            "//div[@class='relative']/div[@class='dropdown jobs-search-dropdown jobs-search-dropdown--view-switcher closed ember-view']/button[@class='dropdown-trigger jobs-search-dropdown__trigger Sans-13px-black-55%-semibold ember-view']")
-        telement.click()
-        listElement = driver.find_element_by_xpath(
-            "//ul[@class='dropdown-options jobs-search-dropdown__dropdown ember-view']/li[@class='jobs-search-dropdown__option']/button[@class='jobs-search-dropdown__option-button jobs-search-dropdown__option-button--split ']")
-        listElement.click()
-    except (NoSuchElementException,WebDriverException), message:
-        print message
+    # driver = webdriver.Chrome()
+    # driver = webdriver.Firefox(executable_path='/Users/PaulaZ/Downloads/geckodriver')
+    # driver = webdriver.Firefox()
+    option = webdriver.ChromeOptions()
+    option.add_argument("headless")
+    driver = webdriver.Chrome(chrome_options=option)
+    driver.get("https://www.baidu.com")
+    print(driver.title)
+    driver.find_element_by_id("kw").send_keys("selenium")
+    driver.find_element_by_id("su").click()
+    print(driver.title)
+    driver.quit()
 
 if __name__ == "__main__":
-    opendrive()
+    # opendrive()
+    test()

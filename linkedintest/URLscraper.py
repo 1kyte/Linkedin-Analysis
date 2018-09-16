@@ -25,6 +25,9 @@ def goToNextPage(driver):
 
 def opendrive():
     try:
+        # option = webdriver.ChromeOptions()
+        # option.add_argument("headless")
+        # driver = webdriver.Chrome(chrome_options=option)
         driver = webdriver.Firefox(executable_path = '/Users/PaulaZ/Downloads/geckodriver')
         driver.get("https://www.linkedin.com/?trk=brandpage_baidu_pc-mainlink")
         driver.find_element_by_id('login-email').send_keys("analysisZ@outlook.com")
