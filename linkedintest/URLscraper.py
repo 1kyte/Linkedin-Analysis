@@ -8,6 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 # from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
+from selenium.webdriver.chrome.options import Options
+# import chromedriver
 
 
 # f = open("out.json", "w")
@@ -19,7 +21,7 @@ def goToNextPage(driver):
     time.sleep(1)
     url ="https://www.linkedin.com/jobs/search/?location=Australia&locationId=au%3A0&start="+str(currentstart)
     driver.get(url)
-    getClassicalView(driver)
+    # getClassicalView(driver)
     scrollDown(driver)
     getListofCurrentPage(driver)
 
@@ -28,7 +30,25 @@ def opendrive():
         # option = webdriver.ChromeOptions()
         # option.add_argument("headless")
         # driver = webdriver.Chrome(chrome_options=option)
-        driver = webdriver.Firefox(executable_path = '/Users/PaulaZ/Downloads/geckodriver')
+        # driver = webdriver.Firefox(executable_path = '/Users/PaulaZ/Downloads/geckodriver')
+        # chrome_options = webdriver.ChromeOptions()
+        # chrome_options.add_argument('--headless')
+        # chrome_options.add_argument('--disable-gpu')
+        # driver = webdriver.chrome(executable_path ='/Users/PaulaZ/Downloads/chromedriver',chrome_options=chrome_options)
+
+        # driver = webdriver.Chrome(executable_path ='/Users/PaulaZ/Downloads/chromedriver')
+        CHROMEDRIVER_PATH = '/Users/PaulaZ/Downloads/chromedriver'
+        WINDOW_SIZE = "1920,1080"
+
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
+        # chrome_options.binary_location = CHROME_PATH
+
+        driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,
+                                  chrome_options=chrome_options
+                                  )
+
         driver.get("https://www.linkedin.com/?trk=brandpage_baidu_pc-mainlink")
         driver.find_element_by_id('login-email').send_keys("analysisZ@outlook.com")
         driver.find_element_by_id('login-password').send_keys("pa$$w0rd")
@@ -41,7 +61,7 @@ def opendrive():
         print message
 
     time.sleep(1)
-    getClassicalView(driver)
+    # getClassicalView(driver)
     scrollDown(driver)
     getListofCurrentPage(driver)
 
@@ -231,7 +251,7 @@ def getListofCurrentPage(driver):
                                        "ember-view"})
     head = "https://www.linkedin.com/jobs/search/?currentJobId="
     tail = "&location=Australia&locationId=au%3A0&start=" + str(currentstart)
-    getSplitView(driver)
+    # getSplitView(driver)
 
     for t in l:
         id = getData_job_id(t)
@@ -246,7 +266,7 @@ def getListofCurrentPage(driver):
 
 
     try:
-        with open("recording05/record"+str(page)+".json", "w") as f:
+        with open("recording07/recording"+str(page)+".json", "w") as f:
             json.dump(jobInformationList, f)
     except IOError,e:
         print e

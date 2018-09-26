@@ -1,9 +1,10 @@
-import re, time
-from bs4 import BeautifulSoup
+# import re, time
+# from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import WebDriverException
-from pyvirtualdisplay import Display
+# from selenium.common.exceptions import NoSuchElementException
+# from selenium.common.exceptions import WebDriverException
+# from pyvirtualdisplay import Display
+from selenium.webdriver.chrome.options import Options
 
 #
 # li='div class="job-card-search--two-pane jobs-search-results__list--card--viewport-tracking-0 job-card-search job-card-search--column job-card-search pl4 job-card-search--is-active job-card-search--clickable job-card-search--outline-default ember-view" data-control-name="A_jobssearch_job_result_click" data-job-id="785584726" id="ember2612" role="button" tabindex="0"><div class="job-card-search__image-and-sponsored-container"'
@@ -119,14 +120,18 @@ from pyvirtualdisplay import Display
 def test():
     # display = Display(visible=0, size=(800, 600))
     # display.start()
+    # CHROME_PATH = '/usr/bin/google-chrome'
+    # CHROMEDRIVER_PATH = '/Users/PaulaZ/Downloads/chromedriver'
+    CHROMEDRIVER_PATH = '/usr/bin/chromedriver'
+    WINDOW_SIZE = "1920,1080"
 
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
+    # chrome_options.binary_location = CHROME_PATH
 
-    # driver = webdriver.Chrome()
-    # driver = webdriver.Firefox(executable_path='/Users/PaulaZ/Downloads/geckodriver')
-    # driver = webdriver.Firefox()
-    option = webdriver.ChromeOptions()
-    option.add_argument("headless")
-    driver = webdriver.Chrome(chrome_options=option)
+    driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,chrome_options=chrome_options)
+
     driver.get("https://www.baidu.com")
     print(driver.title)
     driver.find_element_by_id("kw").send_keys("selenium")

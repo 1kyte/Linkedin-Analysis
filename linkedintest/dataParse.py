@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup
 data = {}
 def readfile():
     page = 0
-    while page <42:
+    while page <41:
         try:
-            with open("recording03/record"+str(page)+".json", 'r') as f:
+            with open("recording07/recording"+str(page)+".json", 'r') as f:
                 data = json.load(f)
 
         finally:
@@ -14,7 +14,7 @@ def readfile():
                 f.close()
 
         try:
-            with open("result03/result" + str(page) + ".json", "w") as f2:
+            with open("result07/result" + str(page) + ".json", "w") as f2:
                 for job in data:
                     for jobId, content in job.items():
                         jobInformation = informationParse(jobId,content)
@@ -28,12 +28,12 @@ def readfile():
         page +=1
         # time.sleep(100)
 
-def writeToJsonFile(jobInformation,page):
-    try:
-        with open("record"+str(page)+".json", "w") as f:
-            json.dump(jobInformation, f)
-    except IOError,e:
-        print e
+# def writeToJsonFile(jobInformation,page):
+#     try:
+#         with open("record"+str(page)+".json", "w") as f:
+#             json.dump(jobInformation, f)
+#     except IOError,e:
+#         print e
 
 def informationParse(jobId,content):
 
