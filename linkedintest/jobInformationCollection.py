@@ -2,15 +2,15 @@ import re,json
 
 
 def start():
-    fileCounter = 1
-    folderCounter = 0
+    fileCounter = 0
+    folderCounter = 8
     try:
         f2 = open("collectionBox/companyData.json", "w+")
         while folderCounter<1:
             while fileCounter<101:
 
-                # f = open("result"+"0"+str(folderCounter)+"/result" + str(fileCounter) + ".json")
-                f = open("companyData/companyData"+str(fileCounter)+".json")
+                f = open("result"+"0"+str(folderCounter)+"/result" + str(fileCounter) + ".json")
+                # f = open("companyData/companyData"+str(fileCounter)+".json")
                 for line in f:
                     # print line
                     # with open("jobInformationCollection.json", "w") as f2:

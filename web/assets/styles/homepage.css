@@ -14,7 +14,19 @@ section{
 
 }
 .section1{
-    background: url("/images/Dark-Background.png");
+    /* background: url("/images/Dark-Background.png"); */
+    background:black;
+}
+a.scrl_me_down {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    z-index: 9;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all 0.5s ease 1.9s;
+    transition: all 0.5s ease 1.9s;
 }
 .section2{
     background: url("/images/Dark-Background.png");

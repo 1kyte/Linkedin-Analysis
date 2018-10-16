@@ -1,7 +1,8 @@
-import re, time, json
+import re, time, json,csv
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import WebDriverException
+from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
 page = 1
@@ -9,15 +10,38 @@ page = 1
 def opendrive():
     global page
     try:
-        driver = webdriver.Firefox(executable_path = '/Users/PaulaZ/Downloads/geckodriver')
+        # driver = webdriver.Firefox(executable_path = '/Users/PaulaZ/Downloads/geckodriver')
+        CHROMEDRIVER_PATH = '/Users/PaulaZ/Downloads/chromedriver'
+        WINDOW_SIZE = "1920,1080"
+
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
+        # chrome_options.binary_location = CHROME_PATH
+
+        driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,
+                                  chrome_options=chrome_options
+                                  )
         driver.get("https://www.linkedin.com/?trk=brandpage_baidu_pc-mainlink")
         driver.find_element_by_id('login-email').send_keys("analysisZ@outlook.com")
         driver.find_element_by_id('login-password').send_keys("pa$$w0rd")
         driver.find_element_by_xpath('//*[@id="login-submit"]').click()
+        urlList = []
         while page<101:
             print page
-            goToTargetPage(driver)
+            url = goToTargetPage(driver)
+            urlList = urlList+url
 
+        try:
+            with open("companyURL.csv", "w") as csvfile:
+                writer = csv.writer(csvfile)
+                # writer.writerow([])
+                writer.writerows(urlList)
+
+        except IOError:
+            print IOError
+        finally:
+            csvfile.close()
     except (NoSuchElementException,WebDriverException), message:
         print message
 
@@ -31,8 +55,8 @@ def goToTargetPage(driver):
         url="https://www.linkedin.com/search/results/companies/?origin=SWITCH_SEARCH_VERTICAL&page="
         driver.get(url+str(page))
         scrollDown(driver)
-        getCurrentPageURLs(driver)
-
+        url = getCurrentPageURLs(driver)
+        return url
     except (NoSuchElementException,WebDriverException), message:
         print message
 
@@ -52,8 +76,9 @@ def getCurrentPageURLs(driver):
     try:
         bs = BeautifulSoup(driver.page_source, "lxml")
         a = bs.find_all('a', {'class': "search-result__result-link ember-view"})
-        getURL(a,driver)
+        u = getURL(a,driver)
         page += 1
+        return u
     except (NoSuchElementException,WebDriverException), message:
         print message
 
@@ -70,24 +95,26 @@ def getURL(a,driver):
         temp=head+r+"jobs/"
         if urls ==[]:
             theURL = temp
-            urls.append(theURL)
+            urls.append([theURL])
             c = scrapyCompany(theURL, driver)
             if c != "":
                 companies.append(c)
         else:
             if temp != urls[-1]:
                 theURL = temp
-                urls.append(theURL)
-                c = scrapyCompany(theURL, driver)
-                if c != "":
-                    companies.append(c)
-    try:
-        with open("companyData/companyData"+str(page)+".json", "w") as f:
-            json.dump(companies, f)
-    except IOError,e:
-        print e
-    finally:
-        f.close()
+                urls.append([theURL])
+    return urls
+                # c = scrapyCompany(theURL, driver)
+                # if c != "":
+                #     companies.append(c)
+    # try:
+    #     with open("companyData/companyData"+str(page)+".json", "w") as f:
+    #         json.dump(companies, f)
+    # except IOError,e:
+    #     print e
+    # finally:
+    #     f.close()
+
 
 
 def scrapyCompany(theURL,driver):
