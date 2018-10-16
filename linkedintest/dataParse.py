@@ -6,7 +6,7 @@ def readfile():
     page = 0
     while page <41:
         try:
-            with open("recording09/recording"+str(page)+".json", 'r') as f:
+            with open("recording10/recording"+str(page)+".json", 'r') as f:
                 data = json.load(f)
 
         finally:
@@ -14,7 +14,7 @@ def readfile():
                 f.close()
 
         try:
-            with open("result09/result" + str(page) + ".json", "w") as f2:
+            with open("result10/result" + str(page) + ".json", "w") as f2:
                 for job in data:
                     for jobId, content in job.items():
                         jobInformation = informationParse(jobId,content)

@@ -142,7 +142,7 @@ import json
 def start():
     text = [{'app':'adsdfdsavdvfafdsv','fdsa':{'fdsa':"fdsafdafs"},'fdsa':{'fdsa':"fdsafdafs"},'fdsa':{'fdsa':"fdsafdafs"},'fdsa':{'fdsa':"fdsafdafs"}},{'bpp':'b'},{'cpp':'c'},{'dpp':'d'}]
     # for obj in text:
-    
+
     with open("test.txt", "w") as f:
         # json.dump(obj, f)
         f.writelines(text)
