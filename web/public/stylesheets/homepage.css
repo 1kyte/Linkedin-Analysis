@@ -1,0 +1,55 @@
+h1{
+    /* color: yellow; */
+    display: none;   
+}
+section{
+    position: relative;
+    padding: 150px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    /* min-height: 100%; */
+    height: 650px;
+    overflow: hidden;
+
+}
+.section1{
+    /* background: url("/images/analysisBackground.png"); */
+    background-size:100% 100%;
+    /* background:black; */
+    /* background- */
+}
+a.scrl_me_down {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    z-index: 9;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all 0.5s ease 1.9s;
+    transition: all 0.5s ease 1.9s;
+}
+/* .section2{ */
+    /* background: url("/images/Dark-Background.png"); */
+    /* background: blue; */
+/* } */
+/* .barChart{
+    width: 20%;
+    height: 20%;
+} */
+.chart{
+    display: flex;
+    justify-content: space-around;
+}
+.barChart{
+    align-content: center;
+    justify-content: safe;
+    width: 600px;
+    height:400px;
+    margin-left: 30%;
+}
+.piaChart{
+    width: 600px;
+    height:400px;
+}

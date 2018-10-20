@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Linkedin Analysis</title>
+
+  <!-- Viewport mobile tag for sensible mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+  <!--
+      Stylesheets and Preprocessors
+      ==============================
+
+      You can always bring in CSS files manually with `<link>` tags, or asynchronously
+      using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
+      of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+      By default, stylesheets from your `assets/styles` folder are included
+      here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
+      are supported. In production, your styles will be minified and concatenated into
+      a single file.
+
+      To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+      For example, here are a few things you could do:
+
+          + Change the order of your CSS files
+          + Import stylesheets from other directories
+          + Use a different or additional preprocessor, like SASS, SCSS or Stylus
+  -->
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="/stylesheets/header.css">
+  <link rel="stylesheet" href="/stylesheets/homepage.css">
+  <!--STYLES END-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts-en.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts-en.common.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header class="header-area">
+  <div class="main-menu">
+    <!-- <img src="/images/icons8-investment_portfolio_filled.png"> -->
+    <nav id="nav_mobile_menu">
+      <ul id="navigation">
+        <li class="active">
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#section2">Section2</a>
+        </li>
+        <li>
+          <a href="#section3" >Section3</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <div class="body">
+    <section id="home" class="section1">
+    <h1>This is section1</h1>
+
+    <a href="#section2" class="scrl_me_down">
+      <img src="/images/icons8-chevron_down.png" alt="icon">
+    </a>
+  </section>
+  <section id="section2" class="section2">
+    <h1>This is section2</h1>
+    <div class="chart">
+      <div id="piaChart" class="piaChart"></div>
+      <div id="piaChart2" class="piaChart"></div>
+
+    </div>
+
+    <a href="#section3" class="scrl_me_down">
+      <img src="/images/icons8-chevron_down.png" alt="icon">
+    </a>
+  </section>
+  <section id="section3" class="section3">
+    <h1>This is section3</h1>
+    <div id="main" class="piaChart"></div>
+
+  </section>
+</div>
+
+<script src="/javascripts/barChart.js"></script>
+<script src="/javascripts/piachart.js"></script>
+<script src="/javascripts/plugins.js"></script>
+<script src="/javascripts/scripts.js"></script>
+<!--SCRIPTS END-->
+</body>
+</html>
+
