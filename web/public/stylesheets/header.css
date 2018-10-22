@@ -6,9 +6,17 @@ header nav{
     padding: 0;
     text-align: center;
     /* background: transparent; */
-    background: gray;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
     -webkit-transition: background-color 0.3s ease 0s;
     transition: background-color 0.3s ease 0s;
+}
+nav{
+    display: flex;
+}
+.icon{
+    height: 40px;
+    padding: 10px;
 }
 body {
     margin: 0;
