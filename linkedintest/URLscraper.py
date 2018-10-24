@@ -266,7 +266,7 @@ def getListofCurrentPage(driver):
 
 
     try:
-        with open("recording07/recording"+str(page)+".json", "w") as f:
+        with open("recording10/recording"+str(page)+".json", "w") as f:
             json.dump(jobInformationList, f)
     except IOError,e:
         print e

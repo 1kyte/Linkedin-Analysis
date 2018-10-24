@@ -117,28 +117,37 @@ from selenium.webdriver.chrome.options import Options
 #     except (NoSuchElementException,WebDriverException), message:
 #         print message
 
-def test():
     # display = Display(visible=0, size=(800, 600))
     # display.start()
     # CHROME_PATH = '/usr/bin/google-chrome'
     # CHROMEDRIVER_PATH = '/Users/PaulaZ/Downloads/chromedriver'
-    CHROMEDRIVER_PATH = '/usr/bin/chromedriver'
-    WINDOW_SIZE = "1920,1080"
+    # CHROMEDRIVER_PATH = '/usr/bin/chromedriver'
+#     # WINDOW_SIZE = "1920,1080"
+#     #
+#     # chrome_options = Options()
+#     # chrome_options.add_argument("--headless")
+#     # chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
+#     # # chrome_options.binary_location = CHROME_PATH
+#     #
+#     # driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,chrome_options=chrome_options)
+#     #
+#     # driver.get("https://www.baidu.com")
+#     # print(driver.title)
+#     # driver.find_element_by_id("kw").send_keys("selenium")
+#     # driver.find_element_by_id("su").click()
+#     # print(driver.title)
+#     # driver.quit()
+import json
 
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
-    # chrome_options.binary_location = CHROME_PATH
+def start():
+    text = [{'app':'adsdfdsavdvfafdsv','fdsa':{'fdsa':"fdsafdafs"},'fdsa':{'fdsa':"fdsafdafs"},'fdsa':{'fdsa':"fdsafdafs"},'fdsa':{'fdsa':"fdsafdafs"}},{'bpp':'b'},{'cpp':'c'},{'dpp':'d'}]
+    # for obj in text:
 
-    driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,chrome_options=chrome_options)
-
-    driver.get("https://www.baidu.com")
-    print(driver.title)
-    driver.find_element_by_id("kw").send_keys("selenium")
-    driver.find_element_by_id("su").click()
-    print(driver.title)
-    driver.quit()
+    with open("test.txt", "w") as f:
+        # json.dump(obj, f)
+        f.writelines(text)
+    f.close()
 
 if __name__ == "__main__":
     # opendrive()
-    test()
+    start()

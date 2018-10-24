@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Linkedin Analysis</title>
+
+  <!-- Viewport mobile tag for sensible mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="/stylesheets/header.css">
+  <link rel="stylesheet" href="/stylesheets/homepage.css">
+  <!--STYLES END-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts-en.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts-en.common.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header class="header-area">
+  <div class="main-menu">
+    <!-- <img src="/images/icons8-investment_portfolio_filled.png"> -->
+    <nav id="nav_mobile_menu">
+        <img class = 'icon'src="/images/icon.png">
+      <ul id="navigation">
+        <li class="active">
+            <a href="#home">Home</a>
+
+        </li>
+        <li>
+          <a href="#section2">Profiles</a>
+        </li>
+        <li>
+          <a href="#section3" >Recruitment</a>
+        </li>
+          <li>
+              <a href="#section4" >Company</a>
+          </li>
+          <li>
+              <a href="#section5" >Salary</a>
+          </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <div class="body">
+
+      <!--============================================The home section============================================-->
+
+      <section id="home" class="section1">
+        <h1>This is section1</h1>
+          <img class="confuse_img" src="/images/confusePerson.png">
+          <div class="introduction_cart">
+              <span class="introduction_content">
+                    After graduation, a lot of students may confuse about their career. Which industry is popular? What job
+                  pay well? What skill is required by the dreamed job? This website will give you some opinion!
+              </span>
+              <br/>
+              <span>
+                  Let's explore!
+              </span>
+          </div>
+          <a href="#section2" class="scrl_me_down">
+              <img class = 'down' src="/images/icons8-chevron_down.png" alt="icon">
+          </a>
+  </section>
+
+  <!--============================================ Profiles ============================================-->
+
+  <section id="section2" class="section2">
+    <h1>This is section2</h1>
+
+      <div class="profileListButton" id="profileListButton"></div>
+        <div class="profile_location_Chart_chart">
+              <!--<div id="piaChart" class="piaChart"></div>-->
+            <div class="profile_location_Chart" id="profile_location"></div>
+            <!--<div class="profile_location_Chart" id="profile_education"></div>-->
+
+      </div>
+
+
+    <a href="#section3" class="scrl_me_down">
+      <img class = 'down'  src="/images/icons8-chevron_down.png" alt="icon">
+    </a>
+
+  </section>
+
+  <!--============================================ Recruitment ============================================-->
+
+  <section id="section3" class="section3">
+    <h1>This is section3</h1>
+    <!--<div id="main" class="barChart"></div>-->
+
+      <div class="container">
+
+          <div class="job_industry_Chart_chart">
+              <div class="optionButtonGroup">
+                  <button id="jobindustryBar" class="industryBar">Job Industries</button>
+                  <button id="jobLevel" class="locationBar">Job required Level</button>
+              </div>
+              <div id="job_level_piaChart" class="job_level_Chart"></div>
+              <div class="job_industry_Chart" id="profile_industry_Chart"></div>
+
+          </div>
+      </div>
+
+      <div id = 'popChart' class="popChart">
+          <div class="close">
+              <img class="closeIcon" src="/images/icons8-close_window_filled.png" alt="icon" >
+          </div>
+          <div class="contentContainer">
+              <div class="buttonGroup">
+                  <button id="industryBar" class="industryBar">Companies Industries</button>
+                  <button id="locationBar" class="locationBar">Companies Location</button>
+              </div>
+              <div class="popChartContent" id="popChartContent"></div>
+          </div>
+
+      </div>
+
+      <a href="#section4" class="scrl_me_down">
+          <img class = 'down'  src="/images/icons8-chevron_down.png" alt="icon">
+      </a>
+  </section>
+  <!--============================================ Company ============================================-->
+
+  <section id="section4" class="section4">
+      <h1>This is section4</h1>
+      <div class="companyListButton" id="companyListButton"></div>
+      <div id="companyLocation" class="section4_div">
+      </div>
+      <a href="#section5" class="scrl_me_down">
+          <img class = 'down'  src="/images/icons8-chevron_down.png" alt="icon">
+      </a>
+  </section>
+
+<!--============================================ Salary ============================================-->
+
+      <section id="section5" class="section5">
+          <h1>This is section5</h1>
+
+          <div class="wrap">
+              <div class="salary_optionButtonGroup">
+                  <button id="salary_industry" class="industryBar">Based on industry</button>
+                  <button id="salary_location" class="locationBar">Based on location</button>
+              </div>
+              <div id="salary" class="salary_industry_Chart"></div>
+              <div class="salary_location_Chart" id="salary_location_Chart"></div>
+          </div>
+
+          <div id = 'salaryPopChart' class="popChart">
+                  <img id="detailClose" class="salarycloseIcon" src="/images/icons8-close_window_filled.png" alt="icon" >
+                <div class="popChartContent" id="popDetailChart"></div>
+          </div>
+
+      </section>
+</div>
+
+<script src="javascripts/jobChart.js"></script>
+<script src="/javascripts/eductionChart.js"></script>
+<script src="javascripts/companyChart.js"></script>
+<script src="/javascripts/salaryChart.js"></script>
+<script src="/javascripts/plugins.js"></script>
+<script src="/javascripts/scripts.js"></script>
+<!--SCRIPTS END-->
+</body>
+</html>
+
