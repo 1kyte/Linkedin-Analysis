@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d21ca79d-f73a-476f-a371-591de286da5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/parse-JSON.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/collectionBox/jobInformationCollection.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/collectionBox/jobInformationCollection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/collectionBox/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/collectionBox/profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result1.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result10.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result11.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result12.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result13.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result14.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result15.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result16.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result17.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result18.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result19.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result2.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result20.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result21.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result22.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result23.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result24.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result25.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result26.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result27.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result28.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result29.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result29.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result3.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result30.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result31.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result32.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result32.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result33.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result33.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result34.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result35.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result36.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result36.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result37.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result37.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result38.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result38.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result39.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result39.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result4.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result40.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result40.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result5.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result6.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result7.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result8.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result/result9.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result/result9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result0.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result1.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result10.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result11.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result12.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result13.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result14.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result15.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result16.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result17.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result18.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result19.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result2.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result20.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result21.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result22.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result23.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result24.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result25.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result26.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result27.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result28.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result29.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result29.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result3.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result30.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result31.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result32.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result32.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result33.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result33.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result34.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result35.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result36.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result36.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result37.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result37.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result38.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result38.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result39.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result39.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result4.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result5.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result6.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result7.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result8.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result02/result9.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result02/result9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result0.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result1.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result10.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result11.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result12.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result13.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result14.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result15.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result16.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result17.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result18.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result19.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result2.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result20.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result21.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result22.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result23.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result24.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result25.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result26.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result27.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result28.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result29.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result29.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result3.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result30.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result31.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result32.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result32.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result33.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result33.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result34.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result35.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result36.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result36.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result37.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result37.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result38.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result38.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result39.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result39.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result4.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result5.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result6.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result7.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result8.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result03/result9.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result03/result9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result0.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result1.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result10.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result11.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result12.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result13.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result14.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result15.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result16.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result17.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result18.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result19.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result2.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result20.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result21.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result22.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result23.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result24.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result25.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result26.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result27.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result28.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result29.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result29.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result3.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result30.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result31.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result32.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result32.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result33.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result33.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result34.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result35.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result36.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result36.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result37.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result37.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result38.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result38.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result39.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result39.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result4.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result5.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result6.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result7.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result8.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result04/result9.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result04/result9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result11.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result12.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result13.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result14.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result15.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result16.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result17.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result18.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result19.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result20.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result21.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result22.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result23.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result24.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result25.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result26.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result27.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result28.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result29.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result29.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result30.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result31.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result32.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result32.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result33.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result33.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result34.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result35.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result36.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result36.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result37.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result37.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result38.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result38.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result39.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result05/result39.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result05/result9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result0.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result06/result0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result1.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result06/result1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result2.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result06/result2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result3.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result06/result3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result33.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result4.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result06/result4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result5.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result06/result5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result6.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result06/result6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result7.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result06/result7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result06/result9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result0.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result1.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result10.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result11.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result12.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result13.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result14.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result15.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result16.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result17.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result18.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result19.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result2.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result20.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result21.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result22.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result23.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result24.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result25.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result26.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result27.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result28.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result29.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result29.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result3.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result30.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result31.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result32.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result32.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result33.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result33.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result34.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result35.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result36.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result36.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result37.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result37.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result38.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result38.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result39.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result39.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result4.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result5.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result6.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result7.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result8.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedintest/result07/result9.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedintest/result07/result9.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Linkedin_Analysis$load_json.coverage" NAME="load_json Coverage Results" MODIFIED="1540191154284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Linkedin_Analysis$profile_extract.coverage" NAME="profile_extract Coverage Results" MODIFIED="1540343178993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Linkedin_Analysis$parse_JSON.coverage" NAME="parse-JSON Coverage Results" MODIFIED="1540093281383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Linkedin_Analysis$load_csv.coverage" NAME="load_csv Coverage Results" MODIFIED="1540168338399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedintest" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1137784075">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="20" />
+          <entry key="py" value="5830" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="5850" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse-JSON.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="30" selection-end-column="21" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile_extract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkedintest/dataParse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Project Manager</find>
+      <find>Inside Account Executive</find>
+      <find>Graduate Software Engineer</find>
+      <find>Warehousing  and  Logistics Supervisor, Castrol - Spotswood</find>
+      <find>HumanResources</find>
+      <find>AmpersandInternational</find>
+      <find>StateofMatter</find>
+      <find>company</find>
+      <find>schoolName</find>
+      <find>Canberra</find>
+      <find>FinancialServices</find>
+      <find>Australia</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/linkedintest/loadFile.py" />
+        <option value="$PROJECT_DIR$/parse-JSON.py" />
+        <option value="$PROJECT_DIR$/linkedintest/load_csv.py" />
+        <option value="$PROJECT_DIR$/load_json.py" />
+        <option value="$PROJECT_DIR$/profile_extract.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/web/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Linkedin-Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Linkedin-Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Linkedin-Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Linkedin-Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedintest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/comp90054-pacman" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.profile_extract">
+    <configuration name="load_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Linkedin-Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedintest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedintest/load_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Linkedin-Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parse-JSON" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Linkedin-Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse-JSON.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="profile_extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Linkedin-Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profile_extract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.parse-JSON" />
+      <item itemvalue="Python.load_csv" />
+      <item itemvalue="Python.profile_extract" />
+      <item itemvalue="Python.load_json" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.profile_extract" />
+        <item itemvalue="Python.load_json" />
+        <item itemvalue="Python.load_csv" />
+        <item itemvalue="Python.parse-JSON" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d21ca79d-f73a-476f-a371-591de286da5b" name="Default Changelist" comment="" />
+      <created>1539487380145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539487380145</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18615879" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.416198" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5568054" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053704" side_tool="true" weight="0.33522728" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38807648" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21781115" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.4015748" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5568054" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053704" side_tool="true" weight="0.33522728" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38807648" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/linkedintest/loadFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedintest/profileScraper.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedintest/URLscraper.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedintest/reTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedintest/company-jobScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3636" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse-JSON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedintest/load_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedintest/dataParse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

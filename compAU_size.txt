@@ -1,0 +1,8 @@
+{'1,001-5,000 employees', 51}
+{'10,001+ employees', 42}
+{'51-200 employees', 35}
+{'5,001-10,000 employees', 21}
+{'501-1,000 employees', 19}
+{'11-50 employees', 16}
+{'201-500 employees', 15}
+{'2-10 employees', 11}

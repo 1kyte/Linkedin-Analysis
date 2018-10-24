@@ -1,1 +1,104 @@
-{"jobTitle": "TAFE Teacher, Licenced Vehicle Tester", "company": "FedUniAustralia", "Detail": {"industry": ["HigherEducation", "EducationManagement", "GovernmentAdministration"], "jobFunction": ["Education", "Training"], "jobType": "Full-time", "level": "Associate"}, "jobId": "844616927", "location": "Melbourne,AU", "view": "Posted20hoursago"}{"jobTitle": "Client Services Coordinator - headspace Bairnsdale - Camberwell", "company": "RelationshipsAustraliaVictoria", "Detail": {"industry": ["NonprofitOrganizationManagement", "GovernmentAdministration", "Hospital&amp;HealthCare"], "jobFunction": ["BusinessDevelopment", "Sales"], "jobType": "Contract", "level": "Entry level"}, "jobId": "844679831", "location": "Camberwell,AU", "view": "Posted19hoursago"}{"jobTitle": "Probate Clerk", "company": "StateTrustees", "Detail": {"industry": ["NonprofitOrganizationManagement", "GovernmentAdministration", "FinancialServices"], "jobFunction": ["CustomerService", "InformationTechnology"], "jobType": "Part-time", "level": "Entry level"}, "jobId": "838425945", "location": "Melbourne,AU", "view": "10views"}{"jobTitle": "Data Quality Analyst", "company": "DepartmentofEducation and Training,Victoria", "Detail": {"industry": ["NonprofitOrganizationManagement", "EducationManagement", "GovernmentAdministration"], "jobFunction": ["InformationTechnology"], "jobType": "Full-time", "level": "Entry level"}, "jobId": "839527015", "location": "Melbourne,AU", "view": "36views"}{"jobTitle": "2019 Paediatric GP Trainee", "company": "BallaratHealthServices", "Detail": {"industry": ["MentalHealthCare", "Health,WellnessandFitness", "Hospital&amp;HealthCare"], "jobFunction": ["Other"], "jobType": "Part-time", "level": "Internship"}, "jobId": "838622413", "location": "Trawool,AU", "view": "1view"}{"jobTitle": "HR Advisor", "company": "TandemPartners", "Detail": {"industry": ["StaffingandRecruiting", "HumanResources", "GovernmentAdministration"], "jobFunction": ["HumanResources"], "jobType": "Contract", "level": "Associate"}, "jobId": "841684962", "location": "Melbourne,AU", "view": "6views"}{"jobTitle": "Tuning into Respectful Relationships Project Lead", "company": "AnglicareVictoria", "Detail": {"industry": ["NonprofitOrganizationManagement", "Individual&amp;FamilyServices", "Civic&amp;SocialOrganization"], "jobFunction": ["CustomerService", "InformationTechnology"], "jobType": "Full-time", "level": "Entry level"}, "jobId": "841547447", "location": "Melbourne,AU", "view": "2views"}
+{"business":[
+{
+	"jobTitle": "TAFE Teacher, Licenced Vehicle Tester",
+	"company": "FedUniAustralia",
+	"Detail": {
+		"industry": ["HigherEducation",
+		"EducationManagement",
+		"GovernmentAdministration"],
+		"jobFunction": ["Education",
+		"Training"],
+		"jobType": "Full-time",
+		"level": "Associate"
+	},
+	"jobId": "844616927",
+	"location": "Melbourne,AU",
+	"view": "Posted20hoursago"
+},{
+	"jobTitle": "Client Services Coordinator - headspace Bairnsdale - Camberwell",
+	"company": "RelationshipsAustraliaVictoria",
+	"Detail": {
+		"industry": ["NonprofitOrganizationManagement",
+		"GovernmentAdministration",
+		"Hospital&amp;HealthCare"],
+		"jobFunction": ["BusinessDevelopment",
+		"Sales"],
+		"jobType": "Contract",
+		"level": "Entry level"
+	},
+	"jobId": "844679831",
+	"location": "Camberwell,AU",
+	"view": "Posted19hoursago"
+},{
+	"jobTitle": "Probate Clerk",
+	"company": "StateTrustees",
+	"Detail": {
+		"industry": ["NonprofitOrganizationManagement",
+		"GovernmentAdministration",
+		"FinancialServices"],
+		"jobFunction": ["CustomerService",
+		"InformationTechnology"],
+		"jobType": "Part-time",
+		"level": "Entry level"
+	},
+	"jobId": "838425945",
+	"location": "Melbourne,AU",
+	"view": "10views"
+},{
+	"jobTitle": "Data Quality Analyst",
+	"company": "DepartmentofEducation and Training,Victoria",
+	"Detail": {
+		"industry": ["NonprofitOrganizationManagement",
+		"EducationManagement",
+		"GovernmentAdministration"],
+		"jobFunction": ["InformationTechnology"],
+		"jobType": "Full-time",
+		"level": "Entry level"
+	},
+	"jobId": "839527015",
+	"location": "Melbourne,AU",
+	"view": "36views"
+},{
+	"jobTitle": "2019 Paediatric GP Trainee",
+	"company": "BallaratHealthServices",
+	"Detail": {
+		"industry": ["MentalHealthCare",
+		"Health,WellnessandFitness",
+		"Hospital&amp;HealthCare"],
+		"jobFunction": ["Other"],
+		"jobType": "Part-time",
+		"level": "Internship"
+	},
+	"jobId": "838622413",
+	"location": "Trawool,AU",
+	"view": "1view"
+},{
+	"jobTitle": "HR Advisor",
+	"company": "TandemPartners",
+	"Detail": {
+		"industry": ["StaffingandRecruiting",
+		"HumanResources",
+		"GovernmentAdministration"],
+		"jobFunction": ["HumanResources"],
+		"jobType": "Contract",
+		"level": "Associate"
+	},
+	"jobId": "841684962",
+	"location": "Melbourne,AU",
+	"view": "6views"
+},{
+	"jobTitle": "Tuning into Respectful Relationships Project Lead",
+	"company": "AnglicareVictoria",
+	"Detail": {
+		"industry": ["NonprofitOrganizationManagement",
+		"Individual&amp;FamilyServices",
+		"Civic&amp;SocialOrganization"],
+		"jobFunction": ["CustomerService",
+		"InformationTechnology"],
+		"jobType": "Full-time",
+		"level": "Entry level"
+	},
+	"jobId": "841547447",
+	"location": "Melbourne,AU",
+	"view": "2views"
+}]}

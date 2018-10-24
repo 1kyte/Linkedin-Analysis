@@ -1,0 +1,5 @@
+{'Higher School Certificate':616}
+{'Bachelor's Degree':4375}
+{'Master's degree':1166}
+{'Diploma':825}
+{'Doctor':481}

@@ -1,0 +1,187 @@
+{
+	"position": "Senior Software Engineer",
+	"industry": {
+		"1": {
+			"industry": "Finance",
+			"baseSalary": "A$118K"
+		},
+		"2": {
+			"industry": "Health Care",
+			"baseSalary": "A$116K"
+		},
+		"3": {
+			"industry": "Software , IT Service",
+			"baseSalary": "A$115K"
+		}
+	},
+	"location": {
+		"1": {
+			"range": "A$91K - A$145K",
+			"base salary": "A$120,000",
+			"location": "Sydney, Australia"
+		},
+		"2": {
+			"range": "A$90K - A$140K",
+			"base salary": "A$112,000",
+			"location": "Melbourne, Australia"
+		},
+		"3": {
+			"range": "A$85K - A$145K",
+			"base salary": "A$109,000",
+			"location": "Brisbane, Australia"
+		}
+	}
+}{
+	"position": "Business Analyst",
+	"industry": {
+		"1": {
+			"industry": "Entertainment",
+			"baseSalary": "A$182K"
+		},
+		"2": {
+			"industry": "Energy , Mining",
+			"baseSalary": "A$120K"
+		},
+		"3": {
+			"industry": "Retail",
+			"baseSalary": "A$107K"
+		},
+		"4": {
+			"industry": "Public Administration",
+			"baseSalary": "A$100K"
+		},
+		"5": {
+			"industry": "Education",
+			"baseSalary": "A$99K"
+		}
+	},
+	"location": {
+		"1": {
+			"range": "A$68K - A$158K",
+			"base salary": "A$100,000",
+			"location": "Perth, Australia"
+		},
+		"2": {
+			"range": "A$66K - A$137K",
+			"base salary": "A$95,000",
+			"location": "Sydney, Australia"
+		},
+		"3": {
+			"range": "A$68K - A$125K",
+			"base salary": "A$95,000",
+			"location": "Brisbane, Australia"
+		},
+		"4": {
+			"range": "A$68K - A$182K",
+			"base salary": "A$92,000",
+			"location": "Melbourne, Australia"
+		},
+		"5": {
+			"range": "A$72K - A$177K",
+			"base salary": "A$90,000",
+			"location": "Adelaide, Australia"
+		}
+	}
+}{
+	"position": "Accountant",
+	"industry": {
+		"1": {
+			"industry": "Education",
+			"baseSalary": "A$87K"
+		},
+		"2": {
+			"industry": "Energy , Mining",
+			"baseSalary": "A$83K"
+		},
+		"3": {
+			"industry": "Manufacturing",
+			"baseSalary": "A$80K"
+		},
+		"4": {
+			"industry": "Construction",
+			"baseSalary": "A$76K"
+		},
+		"5": {
+			"industry": "Finance",
+			"baseSalary": "A$65K"
+		}
+	},
+	"location": {
+		"1": {
+			"range": "A$48K - A$92K",
+			"base salary": "A$66,000",
+			"location": "Perth, Australia"
+		},
+		"2": {
+			"range": "A$49K - A$85K",
+			"base salary": "A$65,000",
+			"location": "Melbourne, Australia"
+		},
+		"3": {
+			"range": "A$46K - A$90K",
+			"base salary": "A$65,000",
+			"location": "Sydney, Australia"
+		},
+		"4": {
+			"range": "A$44K - A$90K",
+			"base salary": "A$63,900",
+			"location": "New South Wales, Australia"
+		},
+		"5": {
+			"range": "A$46K - A$82K",
+			"base salary": "A$63,500",
+			"location": "Queensland, Australia"
+		}
+	}
+}{
+	"position": "Finance Manager",
+	"industry": {
+		"1": {
+			"industry": "Entertainment",
+			"baseSalary": "A$130K"
+		},
+		"2": {
+			"industry": "Constructio",
+			"baseSalary": "A$128K"
+		},
+		"3": {
+			"industry": "Manufacturing",
+			"baseSalary": "A$121K"
+		},
+		"4": {
+			"industry": "Finance",
+			"baseSalary": "A$120K"
+		},
+		"5": {
+			"industry": "Software , IT Service",
+			"baseSalary": "A$120K"
+		}
+	},
+	"location": {
+		"1": {
+			"range": "A$82K - A$145K",
+			"base salary": "A$120,000",
+			"location": "Sydney, Australia"
+		},
+		"2": {
+			"range": "A$80K - A$160K",
+			"base salary": "A$120,000",
+			"location": "Melbourne, Australia"
+		},
+		"3": {
+			"range": "A$85K - A$200K",
+			"base salary": "A$120,000",
+			"location": "Perth, Australia"
+		},
+		"4": {
+			"range": "A$75K - A$160K",
+			"base salary": "A$115,000",
+			"location": "Brisbane, Australia"
+		},
+		"5": {
+			"range": "A$59K - A$139K",
+			"base salary": "A$96,900",
+			"location": "Adelaide, Australia"
+		}
+	}
+}

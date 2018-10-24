@@ -1,0 +1,744 @@
+[{
+	"general": {
+		"imgUrl": "https://media.licdn.com/dms/image/C5603AQGY_veX0K3jhw/profile-displayphoto-shrink_800_800/0?e=1545264000&v=beta&t=_02l0xClg2bUFh2G4g7jgtpmBLTWplXf72L7HKAoIaQ",
+		"fullName": "Alka Jadav",
+		"headline": "Java Developer at Netxs Solutions",
+		"company": "Netxs Solutions",
+		"school": "divya jyot",
+		"location": "Ahmedabad, Gujarat, India",
+		"connections": "500+",
+		"description": "",
+		"firstName": "Alka",
+		"lastName": "Jadav"
+	},
+	"jobs": [{
+		"companyName": "Netxs Solutions",
+		"companyUrl": "https://www.linkedin.com/company/1595097/",
+		"jobTitle": "Java Developer",
+		"dateRange": "Nov 2017 – Present",
+		"location": "Ahmedabad Area, India",
+		"description": null
+	},
+	{
+		"companyName": "Netxs Solutions",
+		"companyUrl": "https://www.linkedin.com/company/1595097/",
+		"jobTitle": "Android Developer",
+		"dateRange": "Nov 2014 – Present",
+		"location": "Ahmedabad Area, India",
+		"description": null
+	},
+	{
+		"companyName": "Adm system Pvt Ltd",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=Adm%20system%20Pvt%20Ltd",
+		"jobTitle": "Android Developer",
+		"dateRange": "Mar 2016 – Aug 2016",
+		"location": "Ahmedabad Area, India",
+		"description": null
+	},
+	{
+		"companyName": "Omnipresent Infotech Pvt.Ltd",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=Omnipresent%20Infotech%20Pvt.Ltd",
+		"jobTitle": "Android developer",
+		"dateRange": "Dec 2013 – Oct 2014",
+		"location": "Ahmedabad Area, India",
+		"description": null
+	},
+	{
+		"companyName": "Iris Solutions Pvt Ltd,Pune",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=Iris%20Solutions%20Pvt%20Ltd%2CPune",
+		"jobTitle": "Java Developer",
+		"dateRange": "Oct 2012 – Apr 2013",
+		"location": "Pune Area, India",
+		"description": null
+	}],
+	"schools": [{
+		"schoolUrl": "https://www.linkedin.com/search/results/index/?keywords=divya%20jyot",
+		"schoolName": "divya jyot",
+		"degree": "mca",
+		"degreeSpec": "computer"
+	}],
+	"details": {
+		"linkedinProfile": "https://www.linkedin.com/in/alka-jadav-8848692b"
+	},
+	"skills": [{
+		"name": "Java",
+		"endorsements": "99+"
+	},
+	{
+		"name": "Core Java",
+		"endorsements": "99+"
+	},
+	{
+		"name": "C++",
+		"endorsements": "99+"
+	},
+	{
+		"name": "Android Development",
+		"endorsements": "46"
+	},
+	{
+		"name": "Mobile Applications",
+		"endorsements": "31"
+	},
+	{
+		"name": "Android",
+		"endorsements": "99"
+	},
+	{
+		"name": "XML",
+		"endorsements": "92"
+	},
+	{
+		"name": "JavaScript",
+		"endorsements": "65"
+	},
+	{
+		"name": "C",
+		"endorsements": "51"
+	},
+	{
+		"name": "Eclipse",
+		"endorsements": "46"
+	},
+	{
+		"name": "JSON",
+		"endorsements": "38"
+	},
+	{
+		"name": "JSP",
+		"endorsements": "29"
+	},
+	{
+		"name": "Tomcat",
+		"endorsements": "23"
+	},
+	{
+		"name": "Servlets",
+		"endorsements": "23"
+	},
+	{
+		"name": "Java Enterprise Edition",
+		"endorsements": "20"
+	},
+	{
+		"name": "SQLite",
+		"endorsements": "18"
+	},
+	{
+		"name": "c++",
+		"endorsements": "14"
+	},
+	{
+		"name": "JavaServer Pages (JSP)",
+		"endorsements": "13"
+	},
+	{
+		"name": "Css,Html,Javascript",
+		"endorsements": "15"
+	},
+	{
+		"name": "Net Beans IDE",
+		"endorsements": "15"
+	},
+	{
+		"name": "Java,Dbms,Vb,Oracle,Eclipse",
+		"endorsements": "14"
+	},
+	{
+		"name": "Java/Servlet",
+		"endorsements": "13"
+	}],
+	"allSkills": "Java, Core Java, C++, Android Development, Mobile Applications, Android, XML, JavaScript, C, Eclipse, JSON, JSP, Tomcat, Servlets, Java Enterprise Edition, SQLite, c++, JavaServer Pages (JSP), Css,Html,Javascript, Net Beans IDE, Java,Dbms,Vb,Oracle,Eclipse, Java/Servlet"
+},
+{
+	"general": {
+		"fullName": "Vidhi Patel",
+		"headline": "HIRING _IOS Developer_Sr. PHP Developer_Project Coordinator_Ahmedabad",
+		"company": "Paramount Management HR Solution",
+		"location": "Ahmedabad Area, India",
+		"connections": "500+",
+		"description": "",
+		"firstName": "Vidhi",
+		"lastName": "Patel"
+	},
+	"jobs": [{
+		"companyName": "Paramount Management HR Solution",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=Paramount%20Management%20HR%20Solution",
+		"jobTitle": "HR Recruiter",
+		"dateRange": "Aug 2016 – Present",
+		"location": null,
+		"description": null
+	}],
+	"schools": [],
+	"details": {
+		"linkedinProfile": "https://www.linkedin.com/in/vidhi-patel-6b1426130"
+	},
+	"skills": [{
+		"name": "Recruiting",
+		"endorsements": "99+"
+	},
+	{
+		"name": "Human Resources",
+		"endorsements": "99+"
+	},
+	{
+		"name": "Management",
+		"endorsements": "99+"
+	},
+	{
+		"name": "Technical Recruiting",
+		"endorsements": "50"
+	},
+	{
+		"name": "Microsoft Office",
+		"endorsements": "67"
+	},
+	{
+		"name": "Customer Service",
+		"endorsements": "56"
+	},
+	{
+		"name": "Employee Relations",
+		"endorsements": "36"
+	},
+	{
+		"name": "Training",
+		"endorsements": "35"
+	},
+	{
+		"name": "Sourcing",
+		"endorsements": "34"
+	},
+	{
+		"name": "Interviewing",
+		"endorsements": "33"
+	},
+	{
+		"name": "Team Management",
+		"endorsements": "23"
+	}],
+	"allSkills": "Recruiting, Human Resources, Management, Technical Recruiting, Microsoft Office, Customer Service, Employee Relations, Training, Sourcing, Interviewing, Team Management"
+},
+{
+	"general": {
+		"imgUrl": "https://media.licdn.com/dms/image/C4E03AQEXR3iURV_VLQ/profile-displayphoto-shrink_800_800/0?e=1545264000&v=beta&t=oPX5NsY4oLjb7zvD-PHMSSXijN7I740qmRhTfW9fBfA",
+		"fullName": "Uday Pratap Singh",
+		"headline": "Technical Director at Hylic IOT Technology Pvt. Ltd.",
+		"company": "Hylic IOT Technology Pvt. Ltd.",
+		"school": "Indira Gandhi National Open University",
+		"location": "Gautam Buddha Nagar, Uttar Pradesh, India",
+		"connections": "500+",
+		"description": "",
+		"firstName": "Uday",
+		"lastName": "Pratap Singh"
+	},
+	"jobs": [{
+		"companyName": "Hylic IOT Technology Pvt. Ltd.",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=Hylic%20IOT%20Technology%20Pvt.%20Ltd.",
+		"jobTitle": "Technical Director",
+		"dateRange": "May 2016 – Present",
+		"location": "H-51,Sector - 63, Noida",
+		"description": null
+	},
+	{
+		"companyName": "Acceleration Engg. & Softwares Pvt. Ltd.",
+		"companyUrl": "https://www.linkedin.com/company/3975639/",
+		"jobTitle": "IT Manager",
+		"dateRange": "Mar 2016 – May 2016",
+		"location": "Noida Area, India",
+		"description": null
+	},
+	{
+		"companyName": "FrontalRain Technologies Pvt Ltd",
+		"companyUrl": "https://www.linkedin.com/company/1595062/",
+		"jobTitle": "IT Manager",
+		"dateRange": "Aug 2014 – Feb 2016",
+		"location": "New Delhi Area, India",
+		"description": null
+	},
+	{
+		"companyName": "PSR Professional PVT. LTD.",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=PSR%20Professional%20PVT.%20LTD.",
+		"jobTitle": "Territory Manager",
+		"dateRange": "Jan 2012 – Aug 2014",
+		"location": "New Delhi Area, India",
+		"description": null
+	}],
+	"schools": [{
+		"schoolUrl": "https://www.linkedin.com/school/20326/?legacySchoolId=20326",
+		"schoolName": "Indira Gandhi National Open University",
+		"degree": "Master of Computer Applications (MCA)",
+		"degreeSpec": "BCA"
+	},
+	{
+		"schoolUrl": "https://www.linkedin.com/school/20326/?legacySchoolId=20326",
+		"schoolName": "Indira Gandhi National Open University",
+		"degree": "Master of Computer Applications (MCA)",
+		"degreeSpec": "bachelor of computer application"
+	}],
+	"details": {
+		"linkedinProfile": "https://www.linkedin.com/in/uday-pratap-singh-0748aa117",
+		"websites": "indiavirtuoso.com"
+	},
+	"skills": [{
+		"name": "SQL",
+		"endorsements": "32"
+	},
+	{
+		"name": "Business Analysis",
+		"endorsements": "30"
+	},
+	{
+		"name": "Integration",
+		"endorsements": "30"
+	},
+	{
+		"name": "IT Management",
+		"endorsements": "27"
+	},
+	{
+		"name": "ITIL",
+		"endorsements": "19"
+	},
+	{
+		"name": "Business Development",
+		"endorsements": "18"
+	},
+	{
+		"name": "Requirements Analysis",
+		"endorsements": "15"
+	},
+	{
+		"name": "Project Management",
+		"endorsements": "14"
+	},
+	{
+		"name": "Pre-sales",
+		"endorsements": "11"
+	},
+	{
+		"name": "Cloud Computing",
+		"endorsements": "10"
+	},
+	{
+		"name": "CRM",
+		"endorsements": "9"
+	},
+	{
+		"name": "ERP",
+		"endorsements": "8"
+	},
+	{
+		"name": "IT Service Management",
+		"endorsements": "8"
+	},
+	{
+		"name": "IT Strategy",
+		"endorsements": "8"
+	},
+	{
+		"name": "Strategic Planning",
+		"endorsements": "8"
+	},
+	{
+		"name": "Business Intelligence",
+		"endorsements": "8"
+	},
+	{
+		"name": "Data Center",
+		"endorsements": "7"
+	},
+	{
+		"name": "Vendor Management",
+		"endorsements": "7"
+	},
+	{
+		"name": "Business Strategy",
+		"endorsements": "7"
+	},
+	{
+		"name": "Customer Relationship Management (CRM)",
+		"endorsements": "7"
+	},
+	{
+		"name": "Sales Management",
+		"endorsements": "5"
+	},
+	{
+		"name": "Microsoft SQL Server",
+		"endorsements": "8"
+	},
+	{
+		"name": "Microsoft Office",
+		"endorsements": "8"
+	},
+	{
+		"name": "Windows Server",
+		"endorsements": "7"
+	},
+	{
+		"name": "Active Directory",
+		"endorsements": "7"
+	},
+	{
+		"name": "Management",
+		"endorsements": "14"
+	},
+	{
+		"name": "Team Leadership",
+		"endorsements": "8"
+	},
+	{
+		"name": "Team Management",
+		"endorsements": "8"
+	},
+	{
+		"name": "Leadership",
+		"endorsements": "7"
+	},
+	{
+		"name": "New Business Development",
+		"endorsements": "5"
+	}],
+	"allSkills": "SQL, Business Analysis, Integration, IT Management, ITIL, Business Development, Requirements Analysis, Project Management, Pre-sales, Cloud Computing, CRM, ERP, IT Service Management, IT Strategy, Strategic Planning, Business Intelligence, Data Center, Vendor Management, Business Strategy, Customer Relationship Management (CRM), Sales Management, Microsoft SQL Server, Microsoft Office, Windows Server, Active Directory, Management, Team Leadership, Team Management, Leadership, New Business Development"
+},
+{
+	"general": {
+		"fullName": "Rajesh Rajpoot",
+		"headline": "Sr. Web Designer at Aussizz Group",
+		"company": "http://www.aussizzgroup.com",
+		"location": "Ahmedabad, Gujarat, India",
+		"connections": "500+",
+		"description": "",
+		"firstName": "Rajesh",
+		"lastName": "Rajpoot"
+	},
+	"jobs": [{
+		"companyName": "http://www.aussizzgroup.com",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=http%3A%2F%2Fwww.aussizzgroup.com",
+		"jobTitle": "Web Designer",
+		"dateRange": "Jul 1991 – Present",
+		"location": "Ahmedabad Area, India",
+		"description": "Sr. Web Designer"
+	},
+	{
+		"companyName": "http://www.aussizzgroup.com",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=http%3A%2F%2Fwww.aussizzgroup.com",
+		"jobTitle": "Web Designer",
+		"dateRange": "Jan 2012 – Jun 2014",
+		"location": null,
+		"description": null
+	}],
+	"schools": [],
+	"details": {
+		"linkedinProfile": "https://www.linkedin.com/in/rajesh-rajpoot-28b4b597"
+	},
+	"skills": [{
+		"name": "Web Design",
+		"endorsements": "99+"
+	},
+	{
+		"name": "HTML",
+		"endorsements": "80"
+	},
+	{
+		"name": "Graphic Design",
+		"endorsements": "60"
+	},
+	{
+		"name": "Logo Design",
+		"endorsements": "32"
+	},
+	{
+		"name": "Typography",
+		"endorsements": "23"
+	},
+	{
+		"name": "Graphics",
+		"endorsements": "14"
+	},
+	{
+		"name": "Vector Illustration",
+		"endorsements": "14"
+	},
+	{
+		"name": "User Interface Design",
+		"endorsements": "14"
+	},
+	{
+		"name": "Layout",
+		"endorsements": "13"
+	},
+	{
+		"name": "Corporate Identity",
+		"endorsements": "10"
+	},
+	{
+		"name": "Web Development",
+		"endorsements": "10"
+	},
+	{
+		"name": "Art Direction",
+		"endorsements": "9"
+	},
+	{
+		"name": "Branding",
+		"endorsements": "6"
+	},
+	{
+		"name": "Dreamweaver",
+		"endorsements": "55"
+	},
+	{
+		"name": "CSS",
+		"endorsements": "53"
+	},
+	{
+		"name": "Flash",
+		"endorsements": "38"
+	},
+	{
+		"name": "Illustrator",
+		"endorsements": "29"
+	},
+	{
+		"name": "JavaScript",
+		"endorsements": "24"
+	},
+	{
+		"name": "jQuery",
+		"endorsements": "23"
+	},
+	{
+		"name": "HTML5",
+		"endorsements": "23"
+	}],
+	"allSkills": "Web Design, HTML, Graphic Design, Logo Design, Typography, Graphics, Vector Illustration, User Interface Design, Layout, Corporate Identity, Web Development, Art Direction, Branding, Dreamweaver, CSS, Flash, Illustrator, JavaScript, jQuery, HTML5"
+},
+{
+	"general": {
+		"imgUrl": "https://media.licdn.com/dms/image/C4E03AQG3DCRLiPzMyw/profile-displayphoto-shrink_800_800/0?e=1545264000&v=beta&t=krG1tNLNzddvX0ze8bxOoNuimY3S4VdcJYt9I-cZ00s",
+		"fullName": "Aashana Pathak",
+		"headline": "If I Viewed your profile, I Probably have an exciting Job opportunity for you...!!",
+		"company": "Ace Infoway Pvt. Ltd.",
+		"location": "Ahmedabad, Gujarat, India",
+		"connections": "500+",
+		"description": "",
+		"firstName": "Aashana",
+		"lastName": "Pathak"
+	},
+	"jobs": [{
+		"companyName": "Ace Infoway Pvt. Ltd.",
+		"companyUrl": "https://www.linkedin.com/company/138620/",
+		"jobTitle": "HR Admin Executive",
+		"dateRange": "Jun 2018 – Present",
+		"location": "Ahmedabad",
+		"description": null
+	},
+	{
+		"companyName": "Blurbpoint Media Private Limited",
+		"companyUrl": "https://www.linkedin.com/company/2019500/",
+		"jobTitle": "HR Executive",
+		"dateRange": "Jul 2017 – Mar 2018",
+		"location": "Ahmedabad Area, India",
+		"description": "• Handling recruitment starting from understanding the need, sourcing the candidates, handling interview process, rolling out offers, ensuring that candidate joins at the right time.\n• Sourcing from Job Portals, Social platform.\n• 360 degree Recruitment Process –Technical Recruitment (PHP Developers, SEO Executive, SEO Manager, PPC, Web Designer, Graphic Designer, Visualizer, Magento Developer, Wordpress Developer, Content Writer, Project Manager, BDE/BDM), SEO\n• Employee Induction\n• Maintain and Updating Master sheet (all employees' detail) time to time.\n• Joining and Exit formalities\n• Handling Attendance and Leave Management.\n• Performance Management\n• Mediator between management and employees.\n• Employee Engagement Activities"
+	}],
+	"schools": [],
+	"details": {
+		"linkedinProfile": "https://www.linkedin.com/in/aashana-pathak-279ba7147"
+	},
+	"skills": [{
+		"name": "HTML",
+		"endorsements": "8"
+	}],
+	"allSkills": "HTML"
+},
+{
+	"general": {
+		"imgUrl": "https://media.licdn.com/dms/image/C4D03AQH5AceW2fnH5g/profile-displayphoto-shrink_800_800/0?e=1545264000&v=beta&t=EUxcsEq59cWxJ6lE8vOx27QW_cw9MhPUJOrcexXFlkk",
+		"fullName": "CEng.  Sayani Chowdhury",
+		"headline": "CEO / Managing Director",
+		"company": "Sreemoyi Tech Pvt Ltd",
+		"school": "West Bengal University of Technology",
+		"location": "Kolkata Area, India",
+		"connections": "500+",
+		"description": "- B.Tech in Information Technology Engineering with 3 years 2 month of professional experience in IT Industry.\n- Currently associated in IBM India Pvt. Ltd.,Kolkata as Systems Engineer since March,2013.\n- Presently working as Application Developer Sterling Integrator for British Petroleum.\n- Worked as Deployment Manager and Technical Analyst  for Kellogg. \n- Worked as Websphere Portal Developer as well as AS/400 Application Developer for Amerisource Bergen Company.\n- Worked as Application Developer Sterling B2B Integrator in Automation of Migration to Sterling MFT.\n- Possess good interpersonal skills that have been put to good use in coordinating with Project Teams and providing effective and customized business solutions.    \n- Possess good communication as well as writing skill in official documents.",
+		"firstName": "CEng.",
+		"lastName": " Sayani Chowdhury"
+	},
+	"jobs": [{
+		"companyName": "Sreemoyi Tech Pvt Ltd",
+		"companyUrl": "https://www.linkedin.com/search/results/index/?keywords=Sreemoyi%20Tech%20Pvt%20Ltd",
+		"jobTitle": "CEO",
+		"dateRange": "Nov 2016 – Present",
+		"location": "Kolkata Area, India",
+		"description": null
+	},
+	{
+		"companyName": "IBM",
+		"companyUrl": "https://www.linkedin.com/company/1009/",
+		"jobTitle": "Senior Software Engineer",
+		"dateRange": "Mar 2013 – Present",
+		"location": "Bangalore",
+		"description": "Presently working as Build Analyst of Sterling Integrator for British Petroleum.\nAlso Worked as Application Developer Sterling B2B Integrator in Automation of Migration to Sterling MFT,Websphere Portal Developer as well as AS/400 Application Developer for Amerisource Bergen Company,Websphere Portal developer for Kellogg. \nPossess good interpersonal skills that have been put to good use in coordinating with Project Teams and providing effective and customized business solutions.    \nPossess good communication as well as writing skill in official documents."
+	},
+	{
+		"companyName": "IBM",
+		"companyUrl": "https://www.linkedin.com/company/1009/",
+		"jobTitle": "Senior Developer",
+		"dateRange": "Mar 2013 – Present",
+		"location": null,
+		"description": null
+	}],
+	"schools": [{
+		"schoolUrl": "https://www.linkedin.com/search/results/index/?keywords=West%20Bengal%20University%20of%20Technology",
+		"schoolName": "West Bengal University of Technology",
+		"degree": "Bachelor of Technology (B.Tech.)",
+		"degreeSpec": "Information Technology",
+		"dateRange": "2008 – 2012"
+	},
+	{
+		"schoolUrl": "https://www.linkedin.com/search/results/index/?keywords=NIIT",
+		"schoolName": "NIIT",
+		"degree": "GNIIT"
+	}],
+	"details": {
+		"linkedinProfile": "https://www.linkedin.com/in/ceng-sayani-chowdhury-b9367026"
+	},
+	"skills": [{
+		"name": "SQL",
+		"endorsements": "99+"
+	},
+	{
+		"name": "Java",
+		"endorsements": "99+"
+	},
+	{
+		"name": "C",
+		"endorsements": "99+"
+	},
+	{
+		"name": "Business Intelligence",
+		"endorsements": "60"
+	},
+	{
+		"name": "Programming",
+		"endorsements": "55"
+	},
+	{
+		"name": "Business Strategy",
+		"endorsements": "50"
+	},
+	{
+		"name": "Business Analysis",
+		"endorsements": "49"
+	},
+	{
+		"name": "Software Engineering",
+		"endorsements": "38"
+	},
+	{
+		"name": "Risk Management",
+		"endorsements": "37"
+	},
+	{
+		"name": "Business Management",
+		"endorsements": "36"
+	},
+	{
+		"name": "Resource Management",
+		"endorsements": "35"
+	},
+	{
+		"name": "Software Development",
+		"endorsements": "35"
+	},
+	{
+		"name": "HTML",
+		"endorsements": "90"
+	},
+	{
+		"name": "JavaScript",
+		"endorsements": "82"
+	},
+	{
+		"name": "Microsoft Office",
+		"endorsements": "78"
+	},
+	{
+		"name": "C++",
+		"endorsements": "60"
+	},
+	{
+		"name": "Databases",
+		"endorsements": "60"
+	},
+	{
+		"name": "XML",
+		"endorsements": "54"
+	},
+	{
+		"name": "Linux",
+		"endorsements": "42"
+	},
+	{
+		"name": "MySQL",
+		"endorsements": "41"
+	},
+	{
+		"name": "Operating Systems",
+		"endorsements": "39"
+	},
+	{
+		"name": "Windows",
+		"endorsements": "38"
+	},
+	{
+		"name": "C#",
+		"endorsements": "37"
+	},
+	{
+		"name": "Visual Basic",
+		"endorsements": "37"
+	},
+	{
+		"name": "Corporate Management",
+		"endorsements": "38"
+	},
+	{
+		"name": "IBM AS/400",
+		"endorsements": "37"
+	}],
+	"allSkills": "SQL, Java, C, Business Intelligence, Programming, Business Strategy, Business Analysis, Software Engineering, Risk Management, Business Management, Resource Management, Software Development, HTML, JavaScript, Microsoft Office, C++, Databases, XML, Linux, MySQL, Operating Systems, Windows, C#, Visual Basic, Corporate Management, IBM AS/400"
+},
+{
+	"general": {
+		"fullName": "Leena Shah",
+		"headline": "Hiring Hardware Designer, schematic, layout, bom, testing, orcad, altium, pads etc.",
+		"company": "Elite Consultants Placement Consultants",
+		"school": "Gujarat University",
+		"location": "Ahmedabad, Gujarat, India",
+		"connections": "500+",
+		"description": "As a CEO @ Elite Consultants, I am involved into all facets of business including client acquisition, client management, relationship management, key talent acquisition etc.\n\nSkills: Business Development and Key Talent Acquisition.\n\nInterested In: Client Acquisition, Talent Management and Hiring IT Professionals.",
+		"firstName": "Leena",
+		"lastName": "Shah"
+	},
+	"jobs": [{
+		"companyName": "Elite Consultants Placement Consultants",
+		"companyUrl": "https://www.linkedin.com/company/2100069/",
+		"jobTitle": "CEO - BD & IT Hiring",
+		"dateRange": "Mar 2007 – Present",
+		"location": "Ahmedabad Area, India",
+		"description": "Accomplished and result oriented in Sales, Recruitment & Business Mgmt professional with comprehensive multi functional experience in overall management Recruitment consultancy.\n\nA keen planner, strategist and implementer with expertise in devising policies & plans for improving business performance, streamlining operations, and achieving overall organizational growth.\n\nHands on experience in restructuring the operations of various functional areas to enhance operational efficiency and optimize resource utilization.\n\nExpertise in effective mgmt of customer relation operations and ensuring maximum customer satisfaction through providing quality service and ensuring adherence to service quality norms\n\nHighly motivated and goal-oriented effective leader, with demonstrated professionalism, and exceptional resource planning and balancing skills.\n\nExcellent communicator with exceptional analytically, people management, relationship management, with co-ordination"
+	}],
+	"schools": [{
+		"schoolUrl": "https://www.linkedin.com/school/13482/?legacySchoolId=13482",
+		"schoolName": "Gujarat University",
+		"dateRange": "2000 – 2003"
+	}],
+	"details": {
+		"linkedinProfile": "https://www.linkedin.com/in/leena-shah-7665aa4"
+	},
+	"skills": [],
+	"allSkills": ""
+}]

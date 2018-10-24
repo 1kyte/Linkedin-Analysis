@@ -1,1 +1,103 @@
-{"jobTitle": "PR Account Manager", "company": "CivicReputatio", "Detail": {"industry": ["PublicRelationsandCommunications"], "jobFunction": ["Consulting", "ProjectManagement", "Strategy"], "jobType": "Full-time", "level": "Mid-Senior level"}, "jobId": "837834467", "location": "Melbourne,Australia", "view": "64views"}{"jobTitle": "Digital Director", "company": "S2MDigitalRecruitment", "Detail": {"industry": ["MarketingandAdvertising"], "jobFunction": ["Marketing"], "jobType": "Full-time", "level": "Associate"}, "jobId": "837809461", "location": "Melbourne,Australia", "view": "125views"}{"jobTitle": "Customer Service Coordinator", "company": "IgluStudentAccommodatio", "Detail": {"industry": ["Hospitality", "HigherEducation", "EducationManagement"], "jobFunction": ["Administrative", "Sales", "CustomerService"], "jobType": "Full-time", "level": "Entry level"}, "jobId": "837801334", "location": "Melbourne,Australia", "view": "123views"}{"jobTitle": "Executive Manager - Distribution", "company": "WillowBlueConsultingPtyLtd", "Detail": {"industry": ["FinancialServices", "Insurance", "Banking"], "jobFunction": ["Management", "Distribution", "BusinessDevelopment"], "jobType": "Full-time", "level": "Executive"}, "jobId": "837798438", "location": "Melbourne,Australia", "view": "52views"}{"jobTitle": "Project Officer", "company": "CatholicCare-GreaterMelbourne,Geelong,Gippsland", "Detail": {"industry": ["Civic&amp;SocialOrganization"], "jobFunction": ["ProjectManagement"], "jobType": "Full-time", "level": "Associate"}, "jobId": "837777497", "location": "EastMelbourne,Victoria,Australia", "view": "73views"}{"jobTitle": "Information Security Compliance Analyst", "company": "Lexer", "Detail": {"industry": ["ComputerSoftware", "InformationTechnologyandServices", "InformationServices"], "jobFunction": ["Accounting", "InformationTechnology"], "jobType": "Part-time", "level": "Mid-Senior level"}, "jobId": "837537687", "location": "86InkermanStStKilda,Melbourne,VIC3182,AU", "view": "112views"}{"jobTitle": "Chief Financial Officer", "company": "UpSearchandSelectio", "Detail": {"industry": ["ConsumerServices", "GovernmentAdministration", "Transportation/Trucking/Railroad"], "jobFunction": ["Finance", "Accounting", "Strategy"], "jobType": "Full-time", "level": "Executive"}, "jobId": "837274380", "location": "Melbourne,Australia", "view": "440views"}
+{"business":[
+{
+	"jobTitle": "PR Account Manager",
+	"company": "CivicReputatio",
+	"Detail": {
+		"industry": ["PublicRelationsandCommunications"],
+		"jobFunction": ["Consulting",
+		"ProjectManagement",
+		"Strategy"],
+		"jobType": "Full-time",
+		"level": "Mid-Senior level"
+	},
+	"jobId": "837834467",
+	"location": "Melbourne,Australia",
+	"view": "64views"
+},{
+	"jobTitle": "Digital Director",
+	"company": "S2MDigitalRecruitment",
+	"Detail": {
+		"industry": ["MarketingandAdvertising"],
+		"jobFunction": ["Marketing"],
+		"jobType": "Full-time",
+		"level": "Associate"
+	},
+	"jobId": "837809461",
+	"location": "Melbourne,Australia",
+	"view": "125views"
+},{
+	"jobTitle": "Customer Service Coordinator",
+	"company": "IgluStudentAccommodatio",
+	"Detail": {
+		"industry": ["Hospitality",
+		"HigherEducation",
+		"EducationManagement"],
+		"jobFunction": ["Administrative",
+		"Sales",
+		"CustomerService"],
+		"jobType": "Full-time",
+		"level": "Entry level"
+	},
+	"jobId": "837801334",
+	"location": "Melbourne,Australia",
+	"view": "123views"
+},{
+	"jobTitle": "Executive Manager - Distribution",
+	"company": "WillowBlueConsultingPtyLtd",
+	"Detail": {
+		"industry": ["FinancialServices",
+		"Insurance",
+		"Banking"],
+		"jobFunction": ["Management",
+		"Distribution",
+		"BusinessDevelopment"],
+		"jobType": "Full-time",
+		"level": "Executive"
+	},
+	"jobId": "837798438",
+	"location": "Melbourne,Australia",
+	"view": "52views"
+},{
+	"jobTitle": "Project Officer",
+	"company": "CatholicCare-GreaterMelbourne,Geelong,Gippsland",
+	"Detail": {
+		"industry": ["Civic&amp;SocialOrganization"],
+		"jobFunction": ["ProjectManagement"],
+		"jobType": "Full-time",
+		"level": "Associate"
+	},
+	"jobId": "837777497",
+	"location": "EastMelbourne,Victoria,Australia",
+	"view": "73views"
+},{
+	"jobTitle": "Information Security Compliance Analyst",
+	"company": "Lexer",
+	"Detail": {
+		"industry": ["ComputerSoftware",
+		"InformationTechnologyandServices",
+		"InformationServices"],
+		"jobFunction": ["Accounting",
+		"InformationTechnology"],
+		"jobType": "Part-time",
+		"level": "Mid-Senior level"
+	},
+	"jobId": "837537687",
+	"location": "86InkermanStStKilda,Melbourne,VIC3182,AU",
+	"view": "112views"
+},{
+	"jobTitle": "Chief Financial Officer",
+	"company": "UpSearchandSelectio",
+	"Detail": {
+		"industry": ["ConsumerServices",
+		"GovernmentAdministration",
+		"Transportation/Trucking/Railroad"],
+		"jobFunction": ["Finance",
+		"Accounting",
+		"Strategy"],
+		"jobType": "Full-time",
+		"level": "Executive"
+	},
+	"jobId": "837274380",
+	"location": "Melbourne,Australia",
+	"view": "440views"
+}]}

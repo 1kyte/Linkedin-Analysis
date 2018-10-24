@@ -1,1 +1,101 @@
-{"jobTitle": "Supervisor Street  and  Beach Services (Night Shift Operations)", "company": "CityofPortPhillip", "Detail": {"industry": ["NonprofitOrganizationManagement", "StaffingandRecruiting", "GovernmentAdministration"], "jobFunction": ["Management", "Manufacturing"], "jobType": "Full-time", "level": "Mid-Senior level"}, "jobId": "844331302", "location": "Melbourne,AU", "view": "Posted21hoursago"}{"jobTitle": "Service Desk Analyst", "company": "CatholicEducationMelbourne", "Detail": {"industry": ["EducationManagement", "Primary/SecondaryEducation", "NonprofitOrganizationManagement"], "jobFunction": ["InformationTechnology", "Analyst"], "jobType": "Full-time", "level": "Mid-Senior level"}, "jobId": "837516991", "location": "Melbourne,Australia", "view": "52views"}{"jobTitle": "Lecturer A -Nursing", "company": "SwinburneUniversityofTechnology", "Detail": {"industry": ["HigherEducation", "EducationManagement", "Health,WellnessandFitness"], "jobFunction": ["Education"], "jobType": "Full-time", "level": "Mid-Senior level"}, "jobId": "843352470", "location": "Melbourne,Victoria,Australia", "view": "18views"}{"jobTitle": "Infrastructure Manager", "company": "ResourceSolutionsGroup", "Detail": {"industry": ["InformationTechnologyandServices"], "jobFunction": ["InformationTechnology", "Design", "ProductManagement"], "jobType": "Full-time", "level": "Mid-Senior level"}, "jobId": "841375991", "location": "Melbourne,Australia", "view": "97views"}{"jobTitle": "Philosophy and Humanities Teacher", "company": "StMichael'sGrammarSchool", "Detail": {"industry": ["Primary/SecondaryEducation"], "jobFunction": ["Education"], "jobType": "Full-time", "level": ""}, "jobId": "837127970", "location": "StKilda", "view": "47views"}{"jobTitle": "Replenishment Analyst", "company": "MYER", "Detail": {"industry": ["Apparel&amp;Fashion", "Retail"], "jobFunction": ["ProductManagement", "Distribution", "Strategy"], "jobType": "Full-time", "level": "Entry level"}, "jobId": "841606006", "location": "Melbourne,Australia", "view": "61views"}{"jobTitle": "Key Account Manager, Melbourne", "company": "Meltwater", "Detail": {"industry": ["InformationTechnologyandServices", "Internet", "OnlineMedia"], "jobFunction": ["Sales"], "jobType": "Full-time", "level": "Associate"}, "jobId": "843351683", "location": "Melbourne,AU", "view": "19views"}
+{"business":[
+{
+	"jobTitle": "Supervisor Street  and  Beach Services (Night Shift Operations)",
+	"company": "CityofPortPhillip",
+	"Detail": {
+		"industry": ["NonprofitOrganizationManagement",
+		"StaffingandRecruiting",
+		"GovernmentAdministration"],
+		"jobFunction": ["Management",
+		"Manufacturing"],
+		"jobType": "Full-time",
+		"level": "Mid-Senior level"
+	},
+	"jobId": "844331302",
+	"location": "Melbourne,AU",
+	"view": "Posted21hoursago"
+},{
+	"jobTitle": "Service Desk Analyst",
+	"company": "CatholicEducationMelbourne",
+	"Detail": {
+		"industry": ["EducationManagement",
+		"Primary/SecondaryEducation",
+		"NonprofitOrganizationManagement"],
+		"jobFunction": ["InformationTechnology",
+		"Analyst"],
+		"jobType": "Full-time",
+		"level": "Mid-Senior level"
+	},
+	"jobId": "837516991",
+	"location": "Melbourne,Australia",
+	"view": "52views"
+},{
+	"jobTitle": "Lecturer A -Nursing",
+	"company": "SwinburneUniversityofTechnology",
+	"Detail": {
+		"industry": ["HigherEducation",
+		"EducationManagement",
+		"Health,WellnessandFitness"],
+		"jobFunction": ["Education"],
+		"jobType": "Full-time",
+		"level": "Mid-Senior level"
+	},
+	"jobId": "843352470",
+	"location": "Melbourne,Victoria,Australia",
+	"view": "18views"
+},{
+	"jobTitle": "Infrastructure Manager",
+	"company": "ResourceSolutionsGroup",
+	"Detail": {
+		"industry": ["InformationTechnologyandServices"],
+		"jobFunction": ["InformationTechnology",
+		"Design",
+		"ProductManagement"],
+		"jobType": "Full-time",
+		"level": "Mid-Senior level"
+	},
+	"jobId": "841375991",
+	"location": "Melbourne,Australia",
+	"view": "97views"
+},{
+	"jobTitle": "Philosophy and Humanities Teacher",
+	"company": "StMichael'sGrammarSchool",
+	"Detail": {
+		"industry": ["Primary/SecondaryEducation"],
+		"jobFunction": ["Education"],
+		"jobType": "Full-time",
+		"level": ""
+	},
+	"jobId": "837127970",
+	"location": "StKilda",
+	"view": "47views"
+},{
+	"jobTitle": "Replenishment Analyst",
+	"company": "MYER",
+	"Detail": {
+		"industry": ["Apparel&amp;Fashion",
+		"Retail"],
+		"jobFunction": ["ProductManagement",
+		"Distribution",
+		"Strategy"],
+		"jobType": "Full-time",
+		"level": "Entry level"
+	},
+	"jobId": "841606006",
+	"location": "Melbourne,Australia",
+	"view": "61views"
+},{
+	"jobTitle": "Key Account Manager, Melbourne",
+	"company": "Meltwater",
+	"Detail": {
+		"industry": ["InformationTechnologyandServices",
+		"Internet",
+		"OnlineMedia"],
+		"jobFunction": ["Sales"],
+		"jobType": "Full-time",
+		"level": "Associate"
+	},
+	"jobId": "843351683",
+	"location": "Melbourne,AU",
+	"view": "19views"
+}]}
