@@ -266,7 +266,7 @@ function createPiaChart(position,data) {
         },
         series : [
             {
-                name: 'Types of jobs',
+                name: 'salary',
                 type: 'pie',
                 radius : '55%',
                 center: ['50%', '60%'],

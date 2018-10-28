@@ -9,7 +9,7 @@ section{
     text-align: center;
     width: 100%;
     /* min-height: 100%; */
-    height: 700px;
+    height: 740px;
     overflow: hidden;
 
 }
@@ -45,7 +45,7 @@ a.scrl_me_down {
     display: block;
     position: absolute;
     left: 50%;
-    bottom: 5%;
+    bottom: 15%;
     z-index: 9;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -67,7 +67,7 @@ a.scrl_me_down {
 .job_industry_Chart{
     justify-self: center;
     justify-items: center;
-    width: 800px;
+    width: 850px;
     height:400px;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
@@ -200,15 +200,57 @@ button:focus{
 /*==================================================================================================*/
 
 
+.companiesList{
+
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
+    color: white;
+    width: 130px;
+    height: 500px;
+    display: none;
+    overflow:scroll;
+    position: absolute;
+    /*right: 0;*/
+}
+
+.wrap2{
+    position: absolute;
+    margin-left: 20%;
+}
+
 .section4_div{
     margin-top: 20px;
     width: 1000px;
     height:500px;
-    align-self: center;
-    margin-left: 20%;
+    /*align-self: center;*/
+    /*margin-left: 20%;*/
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
+    display: none;
 }
+
+.section4_bar_div{
+    margin-top: 20px;
+    width: 1000px;
+    height:500px;
+    /*align-self: center;*/
+    /*margin-left: 20%;*/
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
+    /*display: block;*/
+}
+
+.section4_Location_bar_div{
+    margin-top: 20px;
+    width: 1000px;
+    height:500px;
+    /*align-self: center;*/
+    /*margin-left: 20%;*/
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
+    display: none;
+}
+
 .levels_of_Job{
     width: 950px;
     height:400px;
@@ -243,4 +285,39 @@ button:focus{
 
 .down{
     width: 50px;
+}
+
+.companyListContent{
+    width: 70px;
+    font-size: 12px;
+    border-bottom-style: solid;
+    border-bottom: white;
+}
+.cpmpanyPopButtonList{
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    justify-content:center;
+}
+
+ul li{
+    list-style:none;
+    margin:0px;
+    padding:0px
+}
+
+.CompanyNameList{
+    /*width: 60px;*/
+    margin: 0 auto;
+}
+.compPopChart{
+
+    width: 1150px;
+    height:600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
+}
+.listWrap{
+    right: 0;
 }
