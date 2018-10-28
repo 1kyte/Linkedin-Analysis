@@ -8,6 +8,23 @@ dataExtract: contains the data and extract code by Python.
 ## Developer:
 Xunwan Wang, email: xunwanw@student.unimelb.edu.au              
 Siyu Zhang, email: siyuz6@student.unimelb.edu.au  
+
+## Running         
+### Web         
+start from: 
+```
+npm start
+```       
+Using the command in terminal under the web directory.              
+
+### linkedTest
+The code cannot be run directly. At the beginning please download the browser driver from :https://github.com/mozilla/geckodriver/releases         
+Then, add the abolute path of the driver in function:
+```
+webdriver.Firefox(PATH)
+```
+
+
 ## Copyright:
 Data Collection:
 
