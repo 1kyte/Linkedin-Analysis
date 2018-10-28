@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html class="gr__localhost"><script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script><script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Linkedin Analysis</title>
+
+  <!-- Viewport mobile tag for sensible mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="./Linkedin Analysis_files/header.css">
+  <link rel="stylesheet" href="./Linkedin Analysis_files/homepage.css">
+  <!--STYLES END-->
+  <script src="./Linkedin Analysis_files/jquery.min.js"></script>
+  <script crossorigin="" src="./Linkedin Analysis_files/react.production.min.js"></script>
+  <script crossorigin="" src="./Linkedin Analysis_files/react-dom.production.min.js"></script>
+  <script src="./Linkedin Analysis_files/echarts-en.js"></script>
+  <script src="./Linkedin Analysis_files/echarts-en.common.js"></script>
+  <script src="./Linkedin Analysis_files/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+
+<body id="top" data-gr-c-s-loaded="true">
+<header class="header-area sticky-menu">
+  <div class="main-menu">
+    <!-- <img src="/images/icons8-investment_portfolio_filled.png"> -->
+    <nav id="nav_mobile_menu">
+        <img class="icon" src="./Linkedin Analysis_files/icon.png">
+      <ul id="navigation">
+        <li class="">
+            <a href="http://localhost:3000/#home">Home</a>
+
+        </li>
+        <li>
+          <a href="http://localhost:3000/#section2">Profiles</a>
+        </li>
+        <li>
+          <a href="http://localhost:3000/#section3">Recruitment</a>
+        </li>
+          <li class="active">
+              <a href="http://localhost:3000/#section4">Company</a>
+          </li>
+          <li>
+              <a href="http://localhost:3000/#section5">Salary</a>
+          </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <div class="body">
+
+      <!--============================================The home section============================================-->
+
+      <section id="home" class="section1">
+        <h1>This is section1</h1>
+          <img class="confuse_img" src="./Linkedin Analysis_files/confusePerson.png">
+          <div class="introduction_cart">
+              <span class="introduction_content">
+                    After graduation, a lot of students may confuse about their career. Which industry is popular? What job
+                  pay well? What skill is required by the dreamed job? This website will give you some opinion!
+              </span>
+              <br>
+              <span>
+                  Let's explore!
+              </span>
+          </div>
+          <a href="http://localhost:3000/#section2" class="scrl_me_down">
+              <img class="down" src="./Linkedin Analysis_files/icons8-chevron_down.png" alt="icon">
+          </a>
+  </section>
+
+  <!--============================================ Profiles ============================================-->
+
+  <section id="section2" class="section2">
+    <h1>This is section2</h1>
+
+        <div class="profile_location_Chart_chart">
+              <!--<div id="piaChart" class="piaChart"></div>-->
+            <div class="profile_location_Chart" id="profile_location" _echarts_instance_="ec_1540205516811" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;"><div style="position: relative; overflow: hidden; width: 800px; height: 400px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="1600" height="800" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+
+      </div>
+
+
+    <a href="http://localhost:3000/#section3" class="scrl_me_down">
+      <img class="down" src="./Linkedin Analysis_files/icons8-chevron_down.png" alt="icon">
+    </a>
+
+  </section>
+
+  <!--============================================ Recruitment ============================================-->
+
+  <section id="section3" class="section3">
+    <h1>This is section3</h1>
+    <!--<div id="main" class="barChart"></div>-->
+
+      <div class="container">
+
+          <div class="job_industry_Chart_chart">
+              <div class="optionButtonGroup">
+                  <button id="jobindustryBar" class="industryBar">Job Industries</button>
+                  <button id="jobLevel" class="locationBar">Job required Level</button>
+              </div>
+              <div id="job_level_piaChart" class="job_level_Chart"></div>
+              <div class="job_industry_Chart" id="profile_industry_Chart" _echarts_instance_="ec_1540205516810" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;"><div style="position: relative; overflow: hidden; width: 800px; height: 400px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="1600" height="800" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+
+          </div>
+      </div>
+
+      <div id="popChart" class="popChart">
+          <div class="close">
+              <img class="closeIcon" src="./Linkedin Analysis_files/icons8-close_window_filled.png" alt="icon">
+          </div>
+          <div class="contentContainer">
+              <div class="buttonGroup">
+                  <button id="industryBar" class="industryBar">Companies Industries</button>
+                  <button id="locationBar" class="locationBar">Companies Location</button>
+              </div>
+              <div class="popChartContent" id="popChartContent"></div>
+          </div>
+
+      </div>
+
+      <a href="http://localhost:3000/#section4" class="scrl_me_down">
+          <img class="down" src="./Linkedin Analysis_files/icons8-chevron_down.png" alt="icon">
+      </a>
+  </section>
+  <!--============================================ Company ============================================-->
+
+  <section id="section4" class="section4">
+      <h1>This is section4</h1>
+      <div class="companyListButton" id="companyListButton"><button type="button" id="Chevron">Chevron</button><button type="button" id="Alcoa">Alcoa</button><button type="button" id="Coca-Cola Amatil">Coca-Cola Amatil</button><button type="button" id="JLL">JLL</button><button type="button" id="WorleyParsons">WorleyParsons</button><button type="button" id="ANZ">ANZ</button></div>
+      <div id="companyLocation" class="section4_div" _echarts_instance_="ec_1540205516813" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;"><div style="position: relative; overflow: hidden; width: 950px; height: 500px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;"><canvas data-zr-dom-id="zr_0" width="1900" height="1000" style="position: absolute; left: 0px; top: 0px; width: 950px; height: 500px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+      <a href="http://localhost:3000/#section5" class="scrl_me_down">
+          <img class="down" src="./Linkedin Analysis_files/icons8-chevron_down.png" alt="icon">
+      </a>
+  </section>
+
+<!--============================================ Salary ============================================-->
+
+      <section id="section5" class="section5">
+          <h1>This is section5</h1>
+
+          <div class="wrap">
+              <div class="salary_optionButtonGroup">
+                  <button id="salary_industry" class="industryBar">Based on industry</button>
+                  <button id="salary_location" class="locationBar">Based on location</button>
+              </div>
+              <div id="salary" class="salary_industry_Chart" _echarts_instance_="ec_1540205516812" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;"><div style="position: relative; overflow: hidden; width: 700px; height: 500px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="1400" height="1000" style="position: absolute; left: 0px; top: 0px; width: 700px; height: 500px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+              <div class="salary_location_Chart" id="salary_location_Chart"></div>
+          </div>
+
+          <div id="salaryPopChart" class="popChart">
+                  <img id="detailClose" class="salarycloseIcon" src="./Linkedin Analysis_files/icons8-close_window_filled.png" alt="icon">
+          </div>
+
+      </section>
+</div>
+
+<script src="./Linkedin Analysis_files/index.js"></script>
+<script src="./Linkedin Analysis_files/jobChart.js"></script>
+<script src="./Linkedin Analysis_files/eductionChart.js"></script>
+<script src="./Linkedin Analysis_files/profileLocationChart.js"></script>
+<script src="./Linkedin Analysis_files/companyChart.js"></script>
+<script src="./Linkedin Analysis_files/salaryChart.js"></script>
+<script src="./Linkedin Analysis_files/plugins.js"></script>
+<script src="./Linkedin Analysis_files/scripts.js"></script><a class="scroll_to_top active" href="http://localhost:3000/#top"><img src="./Linkedin Analysis_files/icons8-chevron.png"></a>
+<!--SCRIPTS END-->
+
+
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>

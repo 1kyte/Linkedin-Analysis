@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 data = {}
 def readfile():
     page = 0
-    while page <41:
+    while page <7:
         try:
             with open("recording10/recording"+str(page)+".json", 'r') as f:
                 data = json.load(f)
@@ -52,10 +52,11 @@ def informationParse(jobId,content):
 def getjob(bs):
     job=""
     try:
-        jobtitletag = bs.find_all('h1', {'class': "jobs-details-top-card__job-title Sans-21px-black-85%-dense"})
+        jobtitletag = bs.find_all('h1', {'class': "jobs-details-top-card__job-title t-20 t-black t-normal"})
         jobtitle = re.findall(r'>.*<', str(jobtitletag))
         jo = str(jobtitle[0]).strip().strip('><')
         job = jo.replace('&amp;', ' and ')
+        # print job
     except IOError, e :
         print e
     finally:
@@ -146,9 +147,13 @@ def getIndustry(b):
         try:
             for e in getlistElement:
                 el = str(e).replace(' ', '')
-                ele = re.findall(r'id.*>.+\\\\n<', str(el))
-                elem = re.findall(r'>.+\\',str(ele[0]))
-                element = str(elem[0]).strip('>\\\\\\\\\\\\\\\\')
+                # ele = re.findall(r'id.*>.+\\\\n<', str(el))
+                ele = re.findall(r'>.+<', str(el))
+
+                # elem = re.findall(r'>.+\\',str(ele[0]))
+                # element = str(elem[0]).strip('>\\\\\\\\\\\\\\\\')
+                element = str(ele[0]).strip().strip('><')
+                print element
                 industryList.append(element)
 
 

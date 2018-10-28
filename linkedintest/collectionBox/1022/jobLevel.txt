@@ -1,0 +1,1 @@
+[('Internship', 22), ('Executive', 60), ('Director', 111), ('Entry level', 571), ('', 585), ('Associate', 874), ('Mid-Senior level', 1470)]
