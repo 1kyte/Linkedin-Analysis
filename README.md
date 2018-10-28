@@ -11,63 +11,32 @@ Siyu Zhang, email: siyuz6@student.unimelb.edu.au
 ## Copyright:
 Data Collection:
 
-Selenium:
+Selenium: http://www.apache.org/licenses/LICENSE-2.0
 
-http://www.apache.org/licenses/LICENSE-2.0
+BeautifulSoup:https://github.com/akalongman/python-beautifulsoup/blob/master/LICENSE
 
-BeautifulSoup:
+Phantombuster：https://phantombuster.com/
 
-https://github.com/akalongman/python-beautifulsoup/blob/master/LICENSE
+Node.js:https://raw.githubusercontent.com/nodejs/node/master/LICENSE
 
-Phantombuster：
+Express.js:https://github.com/expressjs/express/blob/master/LICENSE
 
-Web Application:
+jQuery:https://jquery.org/license/
 
-https://phantombuster.com/
+AJAX:https://github.com/ForbesLindesay/ajax/blob/master/LICENSE
 
-Node.js:
+EChart:https://github.com/zhuhuihuihui/EChart/blob/master/LICENSE.md
 
-https://raw.githubusercontent.com/nodejs/node/master/LICENSE
+Web page template:www.chinaz.com
 
-Express.js:
+Icons8:https://icons8.com/    
 
-https://github.com/expressjs/express/blob/master/LICENSE
 
-jQuery:
+WebStorm: https://www.jetbrains.com/webstorm/
 
-https://jquery.org/license/
+PyCharm: https://www.jetbrains.com/pycharm/
 
-AJAX:
-
-https://github.com/ForbesLindesay/ajax/blob/master/LICENSE
-
-EChart:
-
-https://github.com/zhuhuihuihui/EChart/blob/master/LICENSE.md
-
-Online Resource:
-
-Web page template:
-
-www.chinaz.com
-
-Icons8:
-
-Tool: 
-
-https://icons8.com/       
-
-WebStorm
-
-https://www.jetbrains.com/webstorm/
-
-PyCharm
-
-https://www.jetbrains.com/pycharm/
-
-Photoshop:
-
-https://www.adobe.com/au/products/photoshop.html?gclid=CjwKCAjwvNXeBRAjEiwAjqYhFt5rrW3HVA--
+Photoshop:https://www.adobe.com/au/products/photoshop.html?gclid=CjwKCAjwvNXeBRAjEiwAjqYhFt5rrW3HVA--
 
 aidWt-
 
