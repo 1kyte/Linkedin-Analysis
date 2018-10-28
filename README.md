@@ -26,6 +26,8 @@ webdriver.Firefox(PATH)
 webdriver.Chrome(PATH)
 ```
 
+## Project Video Link        
+https://www.youtube.com/watch?v=6v2J9hrC48E&feature=youtu.be
 
 ## Copyright:
 Data Collection:
