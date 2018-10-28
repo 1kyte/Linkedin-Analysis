@@ -9,6 +9,10 @@ dataExtract: contains the data and extract code by Python.
 Xunwan Wang, email: xunwanw@student.unimelb.edu.au              
 Siyu Zhang, email: siyuz6@student.unimelb.edu.au  
 
+### Contribution
+Xunwan Wang: scraping data, cleaning and extract data and writing report.
+Siyu Zhang: web development, scraping data, and writing report.
+
 ## Running         
 ### Web         
 start from: 
