@@ -18,10 +18,12 @@ npm start
 Using the command in terminal under the web directory.              
 
 ### linkedTest
-The code cannot be run directly. At the beginning please download the browser driver from :https://github.com/mozilla/geckodriver/releases         
+The code cannot be run directly. At the beginning please download the browser driver from :https://github.com/mozilla/geckodriver/releases or http://chromedriver.chromium.org/ for google Chrome.      
 Then, add the abolute path of the driver in function:
 ```
 webdriver.Firefox(PATH)
+#or
+webdriver.Chrome(PATH)
 ```
 
 
@@ -53,15 +55,5 @@ WebStorm: https://www.jetbrains.com/webstorm/
 
 PyCharm: https://www.jetbrains.com/pycharm/
 
-Photoshop:https://www.adobe.com/au/products/photoshop.html?gclid=CjwKCAjwvNXeBRAjEiwAjqYhFt5rrW3HVA--
-
-aidWt-
-
-LiGSYfEnN6frcGkMdUrTIMNg8uhWN2PqDBRxoCHN0QAvD_BwE&sdid=TY6XL4MR&mv=search&ef_id=
-
-CjwKCAjwvNXeBRAjEiwAjqYhFt5rrW3HVA--aidWt-
-
-LiGSYfEnN6frcGkMdUrTIMNg8uhWN2PqDBRxoCHN0QAvD_BwE:G:s&s_kwcid=AL!3085!3!10293380646
-
-4!b!!g!!adobe%20photoshop%20cs6
+Photoshop:https://www.adobe.com/au/products/photoshop.html?gclid=CjwKCAjwvNXeBRAjEiwAjqYhFt5rrW3HVA--aidWt-LiGSYfEnN6frcGkMdUrTIMNg8uhWN2PqDBRxoCHN0QAvD_BwE&sdid=TY6XL4MR&mv=search&ef_id=CjwKCAjwvNXeBRAjEiwAjqYhFt5rrW3HVA--aidWt-LiGSYfEnN6frcGkMdUrTIMNg8uhWN2PqDBRxoCHN0QAvD_BwE:G:s&s_kwcid=AL!3085!3!102933806464!b!!g!!adobe%20photoshop%20cs6
 
